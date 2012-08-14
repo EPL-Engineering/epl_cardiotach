@@ -1,0 +1,2374 @@
+# release: pcb 1.99x
+# To read pcb files, the pcb version (or the cvs source date) must be >= the file version
+FileVersion[20070407]
+PCB["" 600000 500000]
+Grid[10000.000000 0 0 0]
+Cursor[0 0 0.000000]
+PolyArea[200000000.000000]
+Thermal[0.500000]
+DRC[1000 1000 1000 1000 1500 1000]
+Flags("nameonpcb,uniquename,clearnew,snappin")
+Groups("1,c:2,s:3:4:5:6:7:8")
+Styles["Signal,1000,3600,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,600,2402,1181,600"]
+
+	
+Element(0x00 "JUMPER1" "TP6" "unknown" 160 0 3 100 0x00)
+(
+	Pin(50 50 60 38 "1" 0x101)
+	 
+	ElementLine(0 0 0 100 10)
+	ElementLine(0 100 100 100 10)
+	ElementLine(100 100 100 0 10)
+	ElementLine(100 0 0 0 10)
+	ElementLine(0 100 100 100 10)
+	ElementLine(100 100 100 0 10)
+	Mark(50 50)
+)
+
+# retain backwards compatibility to older versions of PKG_DIL 
+# which did not have 100,60,28 args
+
+        
+              
+        
+              
+        
+              
+	
+	
+	
+	
+Element(0x00 "DIP16" "U2" "unknown" 220 100 3 100 0x00)
+(
+	Pin(50 50 60 28 "1" 0x101)
+	Pin(50 150 60 28 "2" 0x01)
+	Pin(50 250 60 28 "3" 0x01)
+	Pin(50 350 60 28 "4" 0x01)
+	Pin(50 450 60 28 "5" 0x01)
+	Pin(50 550 60 28 "6" 0x01)
+	Pin(50 650 60 28 "7" 0x01)
+	Pin(50 750 60 28 "8" 0x01)
+	
+	Pin(350 750 60 28 "9" 0x01)
+	Pin(350 650 60 28 "10" 0x01)
+	Pin(350 550 60 28 "11" 0x01)
+	Pin(350 450 60 28 "12" 0x01)
+	Pin(350 350 60 28 "13" 0x01)
+	Pin(350 250 60 28 "14" 0x01)
+	Pin(350 150 60 28 "15" 0x01)
+	Pin(350 50 60 28 "16" 0x01)
+	
+	ElementLine(0 0 0 800 10)
+	ElementLine(0 800 400 800 10)
+	ElementLine(400 800 400 0 10)
+	ElementLine(0 0 150 0 10)
+	ElementLine(250 0 400 0 10)
+	ElementArc(200 0 50 50 0 180 10)
+	Mark(50 50)
+)
+
+	
+	
+	
+	
+	
+	
+Element(0x00 "RCY100P" "C16" "1.0uF" 200 0 0 100 0x00)
+(
+	Pin(50 100 60 30 "1" 0x101)
+	Pin(150 100 60 30 "2" 0x01)
+	ElementArc(100 100 100 100 0 360 10)
+
+	ElementLine(-60 100            -20 100 10)
+	ElementLine(-40 80 -40 120 10)
+	ElementLine(220 100 260  100 10)
+	
+
+	Mark (50 100)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "C5" "1.0uF" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "C4" "2.0uF" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+# retain backwards compatibility to older versions of PKG_DIL 
+# which did not have 100,60,28 args
+
+        
+              
+        
+              
+        
+              
+	
+	
+	
+	
+Element(0x00 "DIP8" "U4" "unknown" 220 100 3 100 0x00)
+(
+	Pin(50 50 60 28 "1" 0x101)
+	Pin(50 150 60 28 "2" 0x01)
+	Pin(50 250 60 28 "3" 0x01)
+	Pin(50 350 60 28 "4" 0x01)
+	
+	Pin(350 350 60 28 "5" 0x01)
+	Pin(350 250 60 28 "6" 0x01)
+	Pin(350 150 60 28 "7" 0x01)
+	Pin(350 50 60 28 "8" 0x01)
+	
+	ElementLine(0 0 0 400 10)
+	ElementLine(0 400 400 400 10)
+	ElementLine(400 400 400 0 10)
+	ElementLine(0 0 150 0 10)
+	ElementLine(250 0 400 0 10)
+	ElementArc(200 0 50 50 0 180 10)
+	Mark(50 50)
+)
+
+# retain backwards compatibility to older versions of PKG_DIL 
+# which did not have 100,60,28 args
+
+        
+              
+        
+              
+        
+              
+	
+	
+	
+	
+Element(0x00 "DIP8" "U1" "unknown" 220 100 3 100 0x00)
+(
+	Pin(50 50 60 28 "1" 0x101)
+	Pin(50 150 60 28 "2" 0x01)
+	Pin(50 250 60 28 "3" 0x01)
+	Pin(50 350 60 28 "4" 0x01)
+	
+	Pin(350 350 60 28 "5" 0x01)
+	Pin(350 250 60 28 "6" 0x01)
+	Pin(350 150 60 28 "7" 0x01)
+	Pin(350 50 60 28 "8" 0x01)
+	
+	ElementLine(0 0 0 400 10)
+	ElementLine(0 400 400 400 10)
+	ElementLine(400 400 400 0 10)
+	ElementLine(0 0 150 0 10)
+	ElementLine(250 0 400 0 10)
+	ElementArc(200 0 50 50 0 180 10)
+	Mark(50 50)
+)
+
+	
+Element(0x00 "CONNECTOR-2-3" "S3" "unknown" 360 0 3 100 0x00)
+(
+	Pin(50 50 60 38 "1" 0x101)
+	Pin(150 50 60 38 "2" 0x01)
+	Pin(250 50 60 38 "3" 0x01)
+	 Pin(50 150 60 38 "4" 0x01)
+	Pin(150 150 60 38 "5" 0x01)
+	Pin(250 150 60 38 "6" 0x01)
+	 
+	ElementLine(0 0 0 200 10)
+	ElementLine(0 200 300 200 10)
+	ElementLine(300 200 300 0 10)
+	ElementLine(300 0 0 0 10)
+	ElementLine(0 100 100 100 10)
+	ElementLine(100 100 100 0 10)
+	Mark(50 50)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "R41" "100K" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+# retain backwards compatibility to older versions of PKG_DIL 
+# which did not have 100,60,28 args
+
+        
+              
+        
+              
+        
+              
+	
+	
+	
+	
+Element(0x00 "DIP8" "U6" "unknown" 220 100 3 100 0x00)
+(
+	Pin(50 50 60 28 "1" 0x101)
+	Pin(50 150 60 28 "2" 0x01)
+	Pin(50 250 60 28 "3" 0x01)
+	Pin(50 350 60 28 "4" 0x01)
+	
+	Pin(350 350 60 28 "5" 0x01)
+	Pin(350 250 60 28 "6" 0x01)
+	Pin(350 150 60 28 "7" 0x01)
+	Pin(350 50 60 28 "8" 0x01)
+	
+	ElementLine(0 0 0 400 10)
+	ElementLine(0 400 400 400 10)
+	ElementLine(400 400 400 0 10)
+	ElementLine(0 0 150 0 10)
+	ElementLine(250 0 400 0 10)
+	ElementArc(200 0 50 50 0 180 10)
+	Mark(50 50)
+)
+
+	
+Element(0x00 "JUMPER1" "TP10" "unknown" 160 0 3 100 0x00)
+(
+	Pin(50 50 60 38 "1" 0x101)
+	 
+	ElementLine(0 0 0 100 10)
+	ElementLine(0 100 100 100 10)
+	ElementLine(100 100 100 0 10)
+	ElementLine(100 0 0 0 10)
+	ElementLine(0 100 100 100 10)
+	ElementLine(100 100 100 0 10)
+	Mark(50 50)
+)
+
+	
+Element(0x00 "JUMPER1" "TP9" "unknown" 160 0 3 100 0x00)
+(
+	Pin(50 50 60 38 "1" 0x101)
+	 
+	ElementLine(0 0 0 100 10)
+	ElementLine(0 100 100 100 10)
+	ElementLine(100 100 100 0 10)
+	ElementLine(100 0 0 0 10)
+	ElementLine(0 100 100 100 10)
+	ElementLine(100 100 100 0 10)
+	Mark(50 50)
+)
+
+	
+Element(0x00 "JUMPER1" "TP8" "unknown" 160 0 3 100 0x00)
+(
+	Pin(50 50 60 38 "1" 0x101)
+	 
+	ElementLine(0 0 0 100 10)
+	ElementLine(0 100 100 100 10)
+	ElementLine(100 100 100 0 10)
+	ElementLine(100 0 0 0 10)
+	ElementLine(0 100 100 100 10)
+	ElementLine(100 100 100 0 10)
+	Mark(50 50)
+)
+
+	
+Element(0x00 "JUMPER1" "TP7" "unknown" 160 0 3 100 0x00)
+(
+	Pin(50 50 60 38 "1" 0x101)
+	 
+	ElementLine(0 0 0 100 10)
+	ElementLine(0 100 100 100 10)
+	ElementLine(100 100 100 0 10)
+	ElementLine(100 0 0 0 10)
+	ElementLine(0 100 100 100 10)
+	ElementLine(100 100 100 0 10)
+	Mark(50 50)
+)
+
+	
+Element(0x00 "JUMPER1" "TP5" "unknown" 160 0 3 100 0x00)
+(
+	Pin(50 50 60 38 "1" 0x101)
+	 
+	ElementLine(0 0 0 100 10)
+	ElementLine(0 100 100 100 10)
+	ElementLine(100 100 100 0 10)
+	ElementLine(100 0 0 0 10)
+	ElementLine(0 100 100 100 10)
+	ElementLine(100 100 100 0 10)
+	Mark(50 50)
+)
+
+	
+Element(0x00 "JUMPER1" "TP4" "unknown" 160 0 3 100 0x00)
+(
+	Pin(50 50 60 38 "1" 0x101)
+	 
+	ElementLine(0 0 0 100 10)
+	ElementLine(0 100 100 100 10)
+	ElementLine(100 100 100 0 10)
+	ElementLine(100 0 0 0 10)
+	ElementLine(0 100 100 100 10)
+	ElementLine(100 100 100 0 10)
+	Mark(50 50)
+)
+
+	
+Element(0x00 "JUMPER1" "TP3" "unknown" 160 0 3 100 0x00)
+(
+	Pin(50 50 60 38 "1" 0x101)
+	 
+	ElementLine(0 0 0 100 10)
+	ElementLine(0 100 100 100 10)
+	ElementLine(100 100 100 0 10)
+	ElementLine(100 0 0 0 10)
+	ElementLine(0 100 100 100 10)
+	ElementLine(100 100 100 0 10)
+	Mark(50 50)
+)
+
+	
+Element(0x00 "JUMPER1" "TP2" "unknown" 160 0 3 100 0x00)
+(
+	Pin(50 50 60 38 "1" 0x101)
+	 
+	ElementLine(0 0 0 100 10)
+	ElementLine(0 100 100 100 10)
+	ElementLine(100 100 100 0 10)
+	ElementLine(100 0 0 0 10)
+	ElementLine(0 100 100 100 10)
+	ElementLine(100 100 100 0 10)
+	Mark(50 50)
+)
+
+	
+Element(0x00 "JUMPER1" "TP1" "unknown" 160 0 3 100 0x00)
+(
+	Pin(50 50 60 38 "1" 0x101)
+	 
+	ElementLine(0 0 0 100 10)
+	ElementLine(0 100 100 100 10)
+	ElementLine(100 100 100 0 10)
+	ElementLine(100 0 0 0 10)
+	ElementLine(0 100 100 100 10)
+	ElementLine(100 100 100 0 10)
+	Mark(50 50)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "R40" "1.5K" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+Element(0x00 "TO92" "VREG1" "unknown" 60 70 0 100 0x00)
+(
+
+# The JEDEC drawing shows a pin diameter of 16-21 mils
+#
+#
+#         _______
+# TO92:  | 1 2 3 |   <-- bottom view
+#         \_____/
+#       
+# The pin to pin spacing is 100 mils.
+	Pin(250 200 72 42 "1" 0x101)
+	Pin(150 200 72 42 "2" 0x01)
+	Pin(50 200 72 42 "3" 0x01)
+
+	ElementArc(150 200 100 100 315 270 10)
+	ElementLine( 80 130 220 130 10)
+
+	Mark(50 200)
+)
+
+	
+	
+	
+	
+Element(0x00 "ALF400" "D2" "unknown" 287 134 0 100 0x00)
+(
+	Pin(0 200 50 20 "1" 0x101)
+	Pin(400 200 50 20 "2" 0x01)
+
+	ElementLine(0 200 133 200 10)
+	ElementLine(267 200 400 200 10)
+
+	ElementLine(133 200 267 134 10)
+	ElementLine(267 134 267 266 10)
+	ElementLine(267 266 133 200 10)
+	ElementLine(133 134 133 266 10)
+	Mark(0 200)
+)
+
+Element(0x00000000 "T1.75_LED" "LED1" "unknown" 500 500 60 -114 0 100 0x00000000)
+(
+	Pin(0 0 70 30 60 28 "" "1" 0x00000101)
+	Pin(0 100 70 30 60 28 "" "2" 0x00000001)
+	ElementLine (72 135 -73 135 10)
+	ElementLine (81 125 71 135 10)
+	ElementLine (-83 125 -74 134 10)
+	ElementArc (-1 43 116 116 135 270 10)
+	)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY300" "C14" "0.1uF" 245 70 0 100 0x00)
+(
+	Pin(0 25 55 30 "1" 0x101)
+	Pin(300 25 55 30 "2" 0x01)
+
+	ElementLine(0 25 75 25 10)
+	ElementLine(225 25 300 25 10)
+
+	ElementLine(75 0 225 0 10)
+	ElementLine(225 0 225 50 10)
+	ElementLine(225 50 75 50 10)
+	ElementLine(75 50 75 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 25)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY300" "C15" "0.1uF" 245 70 0 100 0x00)
+(
+	Pin(0 25 55 30 "1" 0x101)
+	Pin(300 25 55 30 "2" 0x01)
+
+	ElementLine(0 25 75 25 10)
+	ElementLine(225 25 300 25 10)
+
+	ElementLine(75 0 225 0 10)
+	ElementLine(225 0 225 50 10)
+	ElementLine(225 50 75 50 10)
+	ElementLine(75 50 75 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 25)
+)
+
+Element["" "AMPHENOL_BNC_31-5431" "CONN2" "unknown" 50000 50000 -27980 31660 0 100 ""]
+(
+	Pin[-10000 24000 8000 2500 8600 3200 "Shield" "2" ""]
+	Pin[-20000 0 20000 2500 20600 7900 "Chassis" "3" ""]
+	Pin[0 24000 8000 2500 8600 3200 "Pin" "1" ""]
+	Pin[20000 0 20000 2500 20600 7900 "Chassis" "4" ""]
+	ElementLine [29000 -29850 -29000 -29850 1000]
+	ElementLine [29000 29850 29000 9000 1000]
+	ElementLine [-29000 29850 29000 29850 1000]
+	ElementLine [-29000 -29850 -29000 -9000 1000]
+	ElementLine [29000 -29850 29000 -9000 1000]
+	ElementLine [-29000 29850 -29000 9000 1000]
+
+	)
+
+Element["" "AMPHENOL_BNC_31-5431" "CONN1" "unknown" 50000 50000 -27980 31660 0 100 ""]
+(
+	Pin[-10000 24000 8000 2500 8600 3200 "Shield" "2" ""]
+	Pin[-20000 0 20000 2500 20600 7900 "Chassis" "3" ""]
+	Pin[0 24000 8000 2500 8600 3200 "Pin" "1" ""]
+	Pin[20000 0 20000 2500 20600 7900 "Chassis" "4" ""]
+	ElementLine [29000 -29850 -29000 -29850 1000]
+	ElementLine [29000 29850 29000 9000 1000]
+	ElementLine [-29000 29850 29000 29850 1000]
+	ElementLine [-29000 -29850 -29000 -9000 1000]
+	ElementLine [29000 -29850 29000 -9000 1000]
+	ElementLine [-29000 29850 -29000 9000 1000]
+
+	)
+
+Element["" "CPE-2242.fp" "BUZ2" "unknown" 50000 50000 -5512 -40945 0 100 ""]
+(
+	Pin[15000 0 7874 2000 8474 3150 "" "2" "edge2"]
+	Pin[-15000 0 7874 2000 8474 3150 "" "1" "square"]
+	ElementLine [1181 -9842 -1575 -9842 1024]
+	ElementLine [-3543 -7480 -8662 -7480 1024]
+	ElementLine [-8662 -7480 -11024 -5118 1024]
+	ElementLine [3149 -7480 8662 -7480 1024]
+	ElementLine [3543 -11417 9449 -17323 1024]
+	ElementLine [-3937 -11417 -9843 -17323 1024]
+	ElementLine [-9843 -17323 9449 -17323 1024]
+	ElementLine [9449 -20079 5512 -24016 1024]
+	ElementLine [5512 -24016 -6299 -24016 1024]
+	ElementLine [-6299 -24016 -9843 -20472 1024]
+	ElementLine [12205 -25197 12204 -25197 1024]
+	ElementLine [12204 -25197 6693 -30708 1024]
+	ElementLine [6693 -30708 -6694 -30708 1024]
+	ElementLine [-6694 -30708 -12205 -25197 1024]
+	ElementLine [1181 -9842 1181 -5118 1024]
+	ElementLine [1181 -5118 -1575 -5118 1024]
+	ElementLine [3149 -9842 3149 -5118 1024]
+	ElementLine [8662 -7480 11024 -5118 1024]
+	ElementLine [3543 -11417 -3937 -11417 1024]
+	ElementLine [-3543 -9842 -3543 -5118 1024]
+	ElementLine [-1575 -9842 -1575 -5118 1024]
+	ElementLine [-23229 0 -26378 0 1024]
+	ElementLine [-24803 -1575 -24803 1575 1024]
+	ElementLine [26377 0 23228 0 1024]
+	ElementLine [40550 0 37401 0 1024]
+	ElementLine [-37402 0 -40551 0 1024]
+	ElementLine [-38976 -1575 -38976 1575 1024]
+	ElementLine [-2756 11024 -3937 12205 1024]
+	ElementLine [-1969 11024 -2756 11024 1024]
+	ElementLine [-394 13779 -394 12205 1024]
+	ElementLine [-394 12205 -1575 11024 1024]
+	ElementLine [7479 8661 7479 14960 1024]
+	ElementLine [9054 10630 5905 10630 1024]
+	ElementLine [1574 11417 1574 14173 1024]
+	ElementLine [1574 14173 2361 14960 1024]
+	ElementLine [2361 14960 3543 14960 1024]
+	ElementLine [3543 14960 4330 14173 1024]
+	ElementLine [4330 14173 4330 11417 1024]
+	ElementLine [-3937 12205 -3937 13780 1024]
+	ElementLine [-3937 13780 -2756 14961 1024]
+	ElementLine [-2756 14961 -1575 14961 1024]
+	ElementLine [-1575 14961 -1575 14960 1024]
+	ElementLine [-1575 14960 -394 13779 1024]
+	ElementLine [-19294 11024 -22443 11024 1024]
+	ElementLine [-20869 9055 -20869 15354 1024]
+	ElementLine [-17325 12205 -17325 13780 1024]
+	ElementLine [-17325 13780 -16144 14961 1024]
+	ElementLine [-16144 14961 -14963 14961 1024]
+	ElementLine [-14963 14961 -14963 14960 1024]
+	ElementLine [-14963 14960 -13782 13779 1024]
+	ElementLine [-13782 13779 -13782 12205 1024]
+	ElementLine [-13782 12205 -14963 11024 1024]
+	ElementLine [-15357 11024 -16144 11024 1024]
+	ElementLine [-16144 11024 -17325 12205 1024]
+	ElementLine [-8664 12205 -9845 11024 1024]
+	ElementLine [-11420 11024 -11420 18110 1024]
+	ElementLine [-10239 11024 -11026 11024 1024]
+	ElementLine [-11026 14961 -9845 14961 1024]
+	ElementLine [-9845 14961 -9845 14960 1024]
+	ElementLine [-9845 14960 -8664 13779 1024]
+	ElementLine [-8664 13779 -8664 12205 1024]
+	ElementLine [13383 12205 12202 11024 1024]
+	ElementLine [10627 11024 10627 18110 1024]
+	ElementLine [11808 11024 11021 11024 1024]
+	ElementLine [11021 14961 12202 14961 1024]
+	ElementLine [12202 14961 12202 14960 1024]
+	ElementLine [12202 14960 13383 13779 1024]
+	ElementLine [13383 13779 13383 12205 1024]
+	ElementLine [21258 9055 21258 15354 1024]
+	ElementLine [22833 11024 19684 11024 1024]
+	ElementLine [15353 11811 15353 14567 1024]
+	ElementLine [15353 14567 16140 15354 1024]
+	ElementLine [16140 15354 17322 15354 1024]
+	ElementLine [17322 15354 18109 14567 1024]
+	ElementLine [18109 14567 18109 11811 1024]
+	ElementArc [-1 0 33465 33465 90 90 1969]
+	ElementArc [0 -196 33465 33465 180 90 1969]
+	ElementArc [-196 -196 33465 33465 270 90 1969]
+	ElementArc [-197 -1 33465 33465 0 90 1969]
+	ElementArc [-1 1 2756 2756 90 90 1024]
+	ElementArc [0 2 2756 2756 180 90 1024]
+	ElementArc [-1 1 2756 2756 270 90 1024]
+	ElementArc [-1 0 2756 2756 0 90 1024]
+
+	)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY300" "C7" "0.1uF" 245 70 0 100 0x00)
+(
+	Pin(0 25 55 30 "1" 0x101)
+	Pin(300 25 55 30 "2" 0x01)
+
+	ElementLine(0 25 75 25 10)
+	ElementLine(225 25 300 25 10)
+
+	ElementLine(75 0 225 0 10)
+	ElementLine(225 0 225 50 10)
+	ElementLine(225 50 75 50 10)
+	ElementLine(75 50 75 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 25)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY1000" "C1" "4.7uF" 770 186 0 100 0x00)
+(
+	Pin(0 83 80 50 "1" 0x101)
+	Pin(1000 83 80 50 "2" 0x01)
+
+	ElementLine(0 83 250 83 10)
+	ElementLine(750 83 1000 83 10)
+
+	ElementLine(250 0 750 0 10)
+	ElementLine(750 0 750 166 10)
+	ElementLine(750 166 250 166 10)
+	ElementLine(250 166 250 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 83)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "R28" "470K" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "R27" "4.7K" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "C8" "1.0uF" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+	
+	
+	
+	
+	
+	
+Element(0x00 "RCY100" "C10" "0.01uF" 200 0 0 100 0x00)
+(
+	Pin(50 100 60 30 "1" 0x101)
+	Pin(150 100 60 30 "2" 0x01)
+	ElementArc(100 100 100 100 0 360 10)
+
+	
+
+	Mark (50 100)
+)
+
+	
+	
+	
+	
+	
+	
+Element(0x00 "RCY100" "C9" "0.01uF" 200 0 0 100 0x00)
+(
+	Pin(50 100 60 30 "1" 0x101)
+	Pin(150 100 60 30 "2" 0x01)
+	ElementArc(100 100 100 100 0 360 10)
+
+	
+
+	Mark (50 100)
+)
+
+# retain backwards compatibility to older versions of PKG_DIL 
+# which did not have 100,60,28 args
+
+        
+              
+        
+              
+        
+              
+	
+	
+	
+	
+Element(0x00 "DIP8" "U5" "unknown" 220 100 3 100 0x00)
+(
+	Pin(50 50 60 28 "1" 0x101)
+	Pin(50 150 60 28 "2" 0x01)
+	Pin(50 250 60 28 "3" 0x01)
+	Pin(50 350 60 28 "4" 0x01)
+	
+	Pin(350 350 60 28 "5" 0x01)
+	Pin(350 250 60 28 "6" 0x01)
+	Pin(350 150 60 28 "7" 0x01)
+	Pin(350 50 60 28 "8" 0x01)
+	
+	ElementLine(0 0 0 400 10)
+	ElementLine(0 400 400 400 10)
+	ElementLine(400 400 400 0 10)
+	ElementLine(0 0 150 0 10)
+	ElementLine(250 0 400 0 10)
+	ElementArc(200 0 50 50 0 180 10)
+	Mark(50 50)
+)
+
+	
+Element(0x00 "JUMPER4" "S2" "unknown" 160 0 3 100 0x00)
+(
+	Pin(50 50 60 38 "1" 0x101)
+	 Pin(50 150 60 38 "2" 0x01)
+	 Pin(50 250 60 38 "3" 0x01)
+	 Pin(50 350 60 38 "4" 0x01)
+	 
+	ElementLine(0 0 0 400 10)
+	ElementLine(0 400 100 400 10)
+	ElementLine(100 400 100 0 10)
+	ElementLine(100 0 0 0 10)
+	ElementLine(0 100 100 100 10)
+	ElementLine(100 100 100 0 10)
+	Mark(50 50)
+)
+
+Element(0x00000000 "T1.75_LED" "LED4" "unknown" 500 500 60 -114 0 100 0x00000000)
+(
+	Pin(0 0 70 30 60 28 "" "1" 0x00000101)
+	Pin(0 100 70 30 60 28 "" "2" 0x00000001)
+	ElementLine (72 135 -73 135 10)
+	ElementLine (81 125 71 135 10)
+	ElementLine (-83 125 -74 134 10)
+	ElementArc (-1 43 116 116 135 270 10)
+	)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "R26" "2.2K" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "R25" "100K" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+	
+Element(0x00 "JUMPER4" "CONN3" "unknown" 160 0 3 100 0x00)
+(
+	Pin(50 50 60 38 "1" 0x101)
+	 Pin(50 150 60 38 "2" 0x01)
+	 Pin(50 250 60 38 "3" 0x01)
+	 Pin(50 350 60 38 "4" 0x01)
+	 
+	ElementLine(0 0 0 400 10)
+	ElementLine(0 400 100 400 10)
+	ElementLine(100 400 100 0 10)
+	ElementLine(100 0 0 0 10)
+	ElementLine(0 100 100 100 10)
+	ElementLine(100 100 100 0 10)
+	Mark(50 50)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "R24" "1K" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "R23" "150K" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+Element(0x00 "TO92" "Q2" "unknown" 60 70 0 100 0x00)
+(
+
+# The JEDEC drawing shows a pin diameter of 16-21 mils
+#
+#
+#         _______
+# TO92:  | 1 2 3 |   <-- bottom view
+#         \_____/
+#       
+# The pin to pin spacing is 100 mils.
+	Pin(250 200 72 42 "1" 0x101)
+	Pin(150 200 72 42 "2" 0x01)
+	Pin(50 200 72 42 "3" 0x01)
+
+	ElementArc(150 200 100 100 315 270 10)
+	ElementLine( 80 130 220 130 10)
+
+	Mark(50 200)
+)
+
+Element(0x00000000 "T1.75_LED" "LED3" "unknown" 500 500 60 -114 0 100 0x00000000)
+(
+	Pin(0 0 70 30 60 28 "" "1" 0x00000101)
+	Pin(0 100 70 30 60 28 "" "2" 0x00000001)
+	ElementLine (72 135 -73 135 10)
+	ElementLine (81 125 71 135 10)
+	ElementLine (-83 125 -74 134 10)
+	ElementArc (-1 43 116 116 135 270 10)
+	)
+
+Element(0x00000000 "T1.75_LED" "LED2" "unknown" 500 500 60 -114 0 100 0x00000000)
+(
+	Pin(0 0 70 30 60 28 "" "1" 0x00000101)
+	Pin(0 100 70 30 60 28 "" "2" 0x00000001)
+	ElementLine (72 135 -73 135 10)
+	ElementLine (81 125 71 135 10)
+	ElementLine (-83 125 -74 134 10)
+	ElementArc (-1 43 116 116 135 270 10)
+	)
+
+	
+Element(0x00 "JUMPER3" "R21" "5K" 160 0 3 100 0x00)
+(
+	Pin(50 50 60 38 "1" 0x101)
+	 Pin(50 150 60 38 "2" 0x01)
+	 Pin(50 250 60 38 "3" 0x01)
+	 
+	ElementLine(0 0 0 300 10)
+	ElementLine(0 300 100 300 10)
+	ElementLine(100 300 100 0 10)
+	ElementLine(100 0 0 0 10)
+	ElementLine(0 100 100 100 10)
+	ElementLine(100 100 100 0 10)
+	Mark(50 50)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "R22" "2.2K" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "R19" "4.7K" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "R20" "1M" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "R18" "2.2K" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "R16" "4.7K" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "R17" "1M" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "R14" "500" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "R15" "1K" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "C6" "1.0uF" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "R5" "18K" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "R13" "470K" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "R12" "470K" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "R10" "100K" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "R11" "470K" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+Element["" "CPE-352" "BUZ1" "unknown" 50000 50000 5905 88583 0 100 ""]
+(
+	Pin[0 50000 5100 2000 5700 2000 "" "2" ""]
+	Pin[0 -50000 5100 2000 5700 2000 "" "1" "square"]
+	ElementLine [1 99607 1 90158 3937]
+	ElementLine [394 -89370 394 -98819 3937]
+	ElementLine [-4331 -94094 5118 -94094 3937]
+	ElementLine [1 -32677 1 -42126 3937]
+	ElementLine [-4724 -37401 4725 -37401 3937]
+	ElementLine [1 42127 1 32678 3937]
+	ElementArc [0 -393 82678 82678 270 90 3937]
+	ElementArc [1 787 82678 82678 0 90 3937]
+	ElementArc [1180 786 82678 82678 90 90 3937]
+	ElementArc [1179 -393 82678 82678 180 90 3937]
+
+	)
+
+	
+Element(0x00 "JUMPER3" "R9" "25K" 160 0 3 100 0x00)
+(
+	Pin(50 50 60 38 "1" 0x101)
+	 Pin(50 150 60 38 "2" 0x01)
+	 Pin(50 250 60 38 "3" 0x01)
+	 
+	ElementLine(0 0 0 300 10)
+	ElementLine(0 300 100 300 10)
+	ElementLine(100 300 100 0 10)
+	ElementLine(100 0 0 0 10)
+	ElementLine(0 100 100 100 10)
+	ElementLine(100 100 100 0 10)
+	Mark(50 50)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "R8" "2.2K" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "R3" "18K" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "R2" "56K" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "R1" "22K" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "R4" "10K" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY300" "C2" "470pF" 245 70 0 100 0x00)
+(
+	Pin(0 25 55 30 "1" 0x101)
+	Pin(300 25 55 30 "2" 0x01)
+
+	ElementLine(0 25 75 25 10)
+	ElementLine(225 25 300 25 10)
+
+	ElementLine(75 0 225 0 10)
+	ElementLine(225 0 225 50 10)
+	ElementLine(225 50 75 50 10)
+	ElementLine(75 50 75 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 25)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "R7" "75K" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY1000" "C3" "4.7uF" 770 186 0 100 0x00)
+(
+	Pin(0 83 80 50 "1" 0x101)
+	Pin(1000 83 80 50 "2" 0x01)
+
+	ElementLine(0 83 250 83 10)
+	ElementLine(750 83 1000 83 10)
+
+	ElementLine(250 0 750 0 10)
+	ElementLine(750 0 750 166 10)
+	ElementLine(750 166 250 166 10)
+	ElementLine(250 166 250 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 83)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "R6" "1K" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "R30" "4.7K" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "R29" "4.7K" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+Element(0x00 "TO92" "Q1" "unknown" 60 70 0 100 0x00)
+(
+
+# The JEDEC drawing shows a pin diameter of 16-21 mils
+#
+#
+#         _______
+# TO92:  | 1 2 3 |   <-- bottom view
+#         \_____/
+#       
+# The pin to pin spacing is 100 mils.
+	Pin(250 200 72 42 "1" 0x101)
+	Pin(150 200 72 42 "2" 0x01)
+	Pin(50 200 72 42 "3" 0x01)
+
+	ElementArc(150 200 100 100 315 270 10)
+	ElementLine( 80 130 220 130 10)
+
+	Mark(50 200)
+)
+
+	
+	
+	
+	
+Element(0x00 "ALF400" "D1" "unknown" 287 134 0 100 0x00)
+(
+	Pin(0 200 50 20 "1" 0x101)
+	Pin(400 200 50 20 "2" 0x01)
+
+	ElementLine(0 200 133 200 10)
+	ElementLine(267 200 400 200 10)
+
+	ElementLine(133 200 267 134 10)
+	ElementLine(267 134 267 266 10)
+	ElementLine(267 266 133 200 10)
+	ElementLine(133 134 133 266 10)
+	Mark(0 200)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "R33" "100K" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "R32" "2.2K" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "R31" "56K" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "C11" "2.0uF" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+	
+Element(0x00 "CONNECTOR-2-3" "S1" "unknown" 360 0 3 100 0x00)
+(
+	Pin(50 50 60 38 "1" 0x101)
+	Pin(150 50 60 38 "2" 0x01)
+	Pin(250 50 60 38 "3" 0x01)
+	 Pin(50 150 60 38 "4" 0x01)
+	Pin(150 150 60 38 "5" 0x01)
+	Pin(250 150 60 38 "6" 0x01)
+	 
+	ElementLine(0 0 0 200 10)
+	ElementLine(0 200 300 200 10)
+	ElementLine(300 200 300 0 10)
+	ElementLine(300 0 0 0 10)
+	ElementLine(0 100 100 100 10)
+	ElementLine(100 100 100 0 10)
+	Mark(50 50)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "R37" "100K" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "R38" "100K" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "R36" "30K" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY300" "C13" "0.01" 245 70 0 100 0x00)
+(
+	Pin(0 25 55 30 "1" 0x101)
+	Pin(300 25 55 30 "2" 0x01)
+
+	ElementLine(0 25 75 25 10)
+	ElementLine(225 25 300 25 10)
+
+	ElementLine(75 0 225 0 10)
+	ElementLine(225 0 225 50 10)
+	ElementLine(225 50 75 50 10)
+	ElementLine(75 50 75 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 25)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "R35" "30K" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY300" "C12" "0.01uF" 245 70 0 100 0x00)
+(
+	Pin(0 25 55 30 "1" 0x101)
+	Pin(300 25 55 30 "2" 0x01)
+
+	ElementLine(0 25 75 25 10)
+	ElementLine(225 25 300 25 10)
+
+	ElementLine(75 0 225 0 10)
+	ElementLine(225 0 225 50 10)
+	ElementLine(225 50 75 50 10)
+	ElementLine(75 50 75 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 25)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY400" "R34" "1.8K" 320 86 0 100 0x00)
+(
+	Pin(0 33 55 30 "1" 0x101)
+	Pin(400 33 55 30 "2" 0x01)
+
+	ElementLine(0 33 100 33 10)
+	ElementLine(300 33 400 33 10)
+
+	ElementLine(100 0 300 0 10)
+	ElementLine(300 0 300 66 10)
+	ElementLine(300 66 100 66 10)
+	ElementLine(100 66 100 0 10)
+
+	
+
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 33)
+)
+
+# retain backwards compatibility to older versions of PKG_DIL 
+# which did not have 100,60,28 args
+
+        
+              
+        
+              
+        
+              
+	
+	
+	
+	
+Element(0x00 "DIP16" "U3" "unknown" 220 100 3 100 0x00)
+(
+	Pin(50 50 60 28 "1" 0x101)
+	Pin(50 150 60 28 "2" 0x01)
+	Pin(50 250 60 28 "3" 0x01)
+	Pin(50 350 60 28 "4" 0x01)
+	Pin(50 450 60 28 "5" 0x01)
+	Pin(50 550 60 28 "6" 0x01)
+	Pin(50 650 60 28 "7" 0x01)
+	Pin(50 750 60 28 "8" 0x01)
+	
+	Pin(350 750 60 28 "9" 0x01)
+	Pin(350 650 60 28 "10" 0x01)
+	Pin(350 550 60 28 "11" 0x01)
+	Pin(350 450 60 28 "12" 0x01)
+	Pin(350 350 60 28 "13" 0x01)
+	Pin(350 250 60 28 "14" 0x01)
+	Pin(350 150 60 28 "15" 0x01)
+	Pin(350 50 60 28 "16" 0x01)
+	
+	ElementLine(0 0 0 800 10)
+	ElementLine(0 800 400 800 10)
+	ElementLine(400 800 400 0 10)
+	ElementLine(0 0 150 0 10)
+	ElementLine(250 0 400 0 10)
+	ElementArc(200 0 50 50 0 180 10)
+	Mark(50 50)
+)
+
+	
+Element(0x00 "JUMPER1" "TP11" "unknown" 160 0 3 100 0x00)
+(
+	Pin(50 50 60 38 "1" 0x101)
+	 
+	ElementLine(0 0 0 100 10)
+	ElementLine(0 100 100 100 10)
+	ElementLine(100 100 100 0 10)
+	ElementLine(100 0 0 0 10)
+	ElementLine(0 100 100 100 10)
+	ElementLine(100 100 100 0 10)
+	Mark(50 50)
+)
+
+	
+Element(0x00 "JUMPER9" "CONN5" "unknown" 160 0 3 100 0x00)
+(
+	Pin(50 50 60 38 "1" 0x101)
+	 Pin(50 150 60 38 "2" 0x01)
+	 Pin(50 250 60 38 "3" 0x01)
+	 Pin(50 350 60 38 "4" 0x01)
+	 Pin(50 450 60 38 "5" 0x01)
+	 Pin(50 550 60 38 "6" 0x01)
+	 Pin(50 650 60 38 "7" 0x01)
+	 Pin(50 750 60 38 "8" 0x01)
+	 Pin(50 850 60 38 "9" 0x01)
+	 
+	ElementLine(0 0 0 900 10)
+	ElementLine(0 900 100 900 10)
+	ElementLine(100 900 100 0 10)
+	ElementLine(100 0 0 0 10)
+	ElementLine(0 100 100 100 10)
+	ElementLine(100 100 100 0 10)
+	Mark(50 50)
+)
+
+	
+Element(0x00 "JUMPER9" "CONN4" "unknown" 160 0 3 100 0x00)
+(
+	Pin(50 50 60 38 "1" 0x101)
+	 Pin(50 150 60 38 "2" 0x01)
+	 Pin(50 250 60 38 "3" 0x01)
+	 Pin(50 350 60 38 "4" 0x01)
+	 Pin(50 450 60 38 "5" 0x01)
+	 Pin(50 550 60 38 "6" 0x01)
+	 Pin(50 650 60 38 "7" 0x01)
+	 Pin(50 750 60 38 "8" 0x01)
+	 Pin(50 850 60 38 "9" 0x01)
+	 
+	ElementLine(0 0 0 900 10)
+	ElementLine(0 900 100 900 10)
+	ElementLine(100 900 100 0 10)
+	ElementLine(100 0 0 0 10)
+	ElementLine(0 100 100 100 10)
+	ElementLine(100 100 100 0 10)
+	Mark(50 50)
+)
+Layer(1 "component")
+(
+)
+Layer(2 "solder")
+(
+)
+Layer(3 "outline")
+(
+)
+Layer(4 "GND")
+(
+)
+Layer(5 "power")
+(
+)
+Layer(6 "signal1")
+(
+)
+Layer(7 "signal2")
+(
+)
+Layer(8 "signal3")
+(
+)
+Layer(9 "silk")
+(
+)
+Layer(10 "silk")
+(
+)

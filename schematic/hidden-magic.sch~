@@ -1,0 +1,131 @@
+v 20100214 2
+C 40000 40000 0 0 0 title-C.sym
+T 41100 40400 9 25 1 0 0 0 2
+This is where I deal with some issues in the netlisting of 
+components with not easily graphically articulated properties.
+N 47000 50400 48000 50400 4
+{
+T 47000 50400 5 10 1 1 0 0 1
+netname=Chassis
+}
+N 45000 50000 55500 50000 4
+{
+T 45000 50000 5 10 1 1 0 0 1
+netname=Chassis
+}
+C 48000 50300 1 0 0 7201SYAQE-switch-dpdt-pt2.sym
+{
+T 48410 51150 5 10 0 0 0 0 1
+device=Dual_Two_Way_Switch
+T 48510 51100 5 10 1 1 0 3 1
+refdes=S3
+T 48700 52000 5 10 0 0 0 0 1
+symversion=1.0
+T 48495 50950 5 10 1 1 0 3 1
+model-name=7201SYAQE
+T 48495 50750 5 10 1 1 0 3 1
+footprint=CK_7201SYAQE.fp
+T 48000 50300 5 10 1 1 0 0 3
+comment=S3 Settings
+Alarm Enable
+Tacit
+}
+N 49000 50400 50900 50400 4
+{
+T 49000 50400 5 10 1 1 0 0 1
+netname=Chassis
+}
+N 49500 50400 49500 50000 4
+{
+T 49500 50400 5 10 1 1 0 0 1
+netname=Chassis
+}
+C 46000 50300 1 0 0 7201SYAQE-switch-dpdt-pt2.sym
+{
+T 46410 51150 5 10 0 0 0 0 1
+device=Dual_Two_Way_Switch
+T 46510 51100 5 10 1 1 0 3 1
+refdes=S1
+T 46700 52000 5 10 0 0 0 0 1
+symversion=1.0
+T 46495 50950 5 10 1 1 0 3 1
+model-name=7201SYAQE
+T 46495 50750 5 10 1 1 0 3 1
+footprint=CK_7201SYAQE.fp
+}
+N 46000 50400 45500 50400 4
+{
+T 46000 50400 5 10 1 1 0 0 1
+netname=Chassis
+}
+N 45500 50400 45500 50000 4
+{
+T 45500 50400 5 10 1 1 0 0 1
+netname=Chassis
+}
+N 47500 50400 47500 50000 4
+{
+T 47500 50400 5 10 1 1 0 0 1
+netname=Chassis
+}
+C 44200 49900 1 0 0 input-1.sym
+{
+T 44200 50200 5 10 0 0 0 0 1
+device=INPUT
+}
+C 50900 50300 1 0 0 AMPHENOL_BNC_31-5431-pt2.sym
+{
+T 51310 51150 5 10 0 0 0 0 1
+device=Dual_Two_Way_Switch
+T 51410 51100 5 10 1 1 0 3 1
+refdes=CONN1
+T 51600 52000 5 10 0 0 0 0 1
+symversion=1.0
+T 51395 50950 5 10 1 1 0 3 1
+model-name=AMPHENOL_BNC_31-5431
+T 51395 50750 5 10 1 1 0 3 1
+footprint=AMPHENOL_BNC_31-5431-short
+}
+N 51900 50400 54000 50400 4
+N 52500 50400 52500 50000 4
+C 54000 50300 1 0 0 AMPHENOL_BNC_31-5431-pt2.sym
+{
+T 54410 51150 5 10 0 0 0 0 1
+device=Dual_Two_Way_Switch
+T 54510 51100 5 10 1 1 0 3 1
+refdes=CONN2
+T 54700 52000 5 10 0 0 0 0 1
+symversion=1.0
+T 54495 50950 5 10 1 1 0 3 1
+model-name=AMPHENOL_BNC_31-5431
+T 54495 50750 5 10 1 1 0 3 1
+footprint=AMPHENOL_BNC_31-5431-short
+}
+N 55000 50400 55500 50400 4
+N 55500 50400 55500 50000 4
+C 49300 47000 1 0 0 box-NoPins-1.sym
+{
+T 49300 48200 5 10 1 1 0 0 1
+refdes=LCD1
+T 49300 48000 5 10 1 1 0 0 1
+footprint=DP-650-vertical.fp
+T 49300 47600 5 10 1 1 0 0 2
+comment=This is just to make the symbol for
+	the LCD display show up.
+}
+T 55000 40700 14 8 1 0 0 0 1
+Hidden Magic
+T 61900 40100 14 8 1 0 0 6 1
+Designed By: EEF
+T 58900 40100 14 8 1 0 0 0 1
+EEF
+T 58800 40400 14 8 1 0 0 0 1
+1.0
+T 55000 40100 14 8 1 0 0 0 1
+3
+T 56500 40100 14 8 1 0 0 0 1
+3
+T 54900 40400 14 8 1 0 0 0 1
+hidden-magic.sch
+T 61900 40400 14 8 1 0 0 6 1
+Date: 2010_03_31

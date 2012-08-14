@@ -1,0 +1,4 @@
+elements-dir ./foot
+schematics power.sch cardiotach-v3_2.sch hidden-magic.sch
+output-name cardiotach-v3_2
+gsch2pcb:use-m4:            yes

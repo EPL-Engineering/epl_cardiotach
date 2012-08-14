@@ -1,0 +1,9 @@
+(component-library "./sym")
+
+
+gsch2pcb:pcb-m4-command:    /usr/bin/m4
+gsch2pcb:pcb-m4-dir:        /home/fosse/Programs/pcb/share/pcb/m4
+gsch2pcb:pcb-m4-confdir:    /home/fosse/Programs/pcb/etc/pcb
+gsch2pcb:pcb-m4-path:       /home/fosse/Programs/pcb/share/pcb/m4  /home/fosse/Programs/geda-1.6.0/etc/pcb  $HOME/.pcb  .
+gsch2pcb:m4-command-line:   /usr/bin/m4 -d  -I/home/fosse/Programs/pcb/share/pcb/m4 -I/home/fosse/Programs/pcb/etc/pcb -I$HOME/.pcb -I. /home/fosse/Programs/pcb/share/pcb/m4/common.m4 - >> test.pcb
+
