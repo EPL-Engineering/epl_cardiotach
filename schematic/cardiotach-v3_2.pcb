@@ -3,10 +3,10 @@
 # To read pcb files, the pcb version (or the git source date) must be >= the file version
 FileVersion[20070407]
 
-PCB["" 893500 363500]
+PCB["" 893500 333500]
 
 Grid[500.0 0 0 0]
-Cursor[0 0 0.000000]
+Cursor[48000 500 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[1000 1000 900 1000 1500 1000]
@@ -3212,7 +3212,7 @@ Layer(1 "component")
 	Text[330500 299500 0 110 "Printed Circuit Board Design : EEF" ""]
 	Text[330500 292500 0 110 "Electronics Design IJS & CFG" ""]
 	Text[330500 278500 0 110 "Cardiotachometer" ""]
-	Text[330500 286000 0 99 "Date: 2010_04_29" ""]
+	Text[330500 286000 0 100 "Date: 2012_08_31" "clearline"]
 	Polygon("")
 	(
 		[12900 20200] [11900 20200] [11900 21200] [12900 21200] 
@@ -3843,11 +3843,6 @@ Layer(2 "solder")
 	Text[495500 302000 0 99 "Pulse_TTL" "onsolder"]
 	Text[779500 278000 0 99 "GND" "onsolder"]
 	Text[143500 204500 1 99 "+15V" "onsolder"]
-	Text[253500 284000 0 99 "Date: 2010_04_29" "onsolder"]
-	Text[253500 270000 0 99 "Printed Circuit Board Design: EEF" "onsolder"]
-	Text[253500 277000 0 99 "Electronics Design: IJS & CFG" "onsolder"]
-	Text[253500 291000 0 99 "Cardiotachometer" "onsolder"]
-	Text[253500 263000 0 99 "Documented as V3.2" "onsolder"]
 	Text[479500 46000 0 99 "Just say no to flaming fowl!" "onsolder"]
 	Polygon("clearpoly")
 	(
@@ -4331,7 +4326,6 @@ Layer(10 "silk")
 	Text[835500 188500 0 99 "Chassis" ""]
 	Text[827500 149000 0 99 "Amplified" ""]
 	Text[692500 86000 0 99 "Sensitivity" ""]
-	Text[330500 306500 0 110 "Documented as V3.2" ""]
 	Text[333000 69000 0 99 "Alarm On/Off" ""]
 	Text[363000 48000 0 99 "Indicator" ""]
 	Text[649500 182000 1 99 "Run" ""]
@@ -4355,6 +4349,7 @@ Layer(10 "silk")
 	Text[163000 174000 0 99 "Alarm" ""]
 	Text[52000 62500 0 100 "OUT" ""]
 	Text[584500 154500 0 99 "Set Min." ""]
+	Text[330500 306500 0 100 "Documented as V4.0" "clearline"]
 	Polygon("")
 	(
 		[10900 20200] [11900 20200] [11900 21200] [10900 21200] 
