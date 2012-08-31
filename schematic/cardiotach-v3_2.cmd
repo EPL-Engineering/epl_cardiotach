@@ -2,6 +2,11 @@
 
 # Start of element LCD1
 
+# Start of element VREG1
+ChangePinName(VREG1, 1, 1)
+ChangePinName(VREG1, 2, 2)
+ChangePinName(VREG1, 3, 3)
+
 # Start of element C19
 ChangePinName(C19, 2, 2)
 ChangePinName(C19, 1, 1)
@@ -155,11 +160,6 @@ ChangePinName(TP1, 1, 1)
 # Start of element R40
 ChangePinName(R40, 1, 1)
 ChangePinName(R40, 2, 2)
-
-# Start of element VREG1
-ChangePinName(VREG1, 3, 3)
-ChangePinName(VREG1, 2, 2)
-ChangePinName(VREG1, 1, 1)
 
 # Start of element D2
 ChangePinName(D2, 1, 1)

@@ -14,7 +14,7 @@
 #Project Name
 NAME = cardiotach-v3_2
 #Project Schematics
-SCHEMATICS = cardiotach-v3_2.sch hidden-magic.sch
+SCHEMATICS = cardiotach-v3_2.sch power.sch hidden-magic.sch
 #Project Netlists
 NETLISTS = $(NAME).net
 #Project SPICE Simulation Data
@@ -32,7 +32,7 @@ SCH2PCB = cardiotach.prj
 #Project Printed Circuit Boards
 PCBS = cardiotach-v3_2.pcb
 #Project Gerbers
-GERBERS = $(NAME).fab.gbr $(NAME).frontsilk.gbr $(NAME).front.gbr $(NAME).frontmask.gbr $(NAME).back.gbr  $(NAME).backmask.gbr
+GERBERS = $(NAME).fab.gbr $(NAME).topsilk.gbr $(NAME).top.gbr $(NAME).topmask.gbr $(NAME).bottom.gbr  $(NAME).bottommask.gbr
 
 #
 ## Text Editor
