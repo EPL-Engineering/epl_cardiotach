@@ -31,8 +31,8 @@ unnamed_net30	C4-2 R10-2 TP5-1 U1-1 R11-2
 unnamed_net29	U1-3 BUZ1-2 LED1-2 R9-2 
 unnamed_net28	BUZ1-1 R9-3 
 unnamed_net27	LED1-1 R8-1 
-unnamed_net26	C1-2 U1-5 R3-1 
-unnamed_net25	R2-2 U1-7 R1-1 
+unnamed_net26	C1-2 U1-5 R3-2 
+unnamed_net25	R2-2 U1-7 R1-2 
 unnamed_net24	U1-6 TP4-1 R4-1 C2-2 
 unnamed_net23	U2-4 C2-1 
 unnamed_net22	U2-14 C3-2 
@@ -40,7 +40,7 @@ unnamed_net21	R7-1 U2-15 C3-1
 unnamed_net20	U2-3 U2-2 R6-1 
 unnamed_net19	Q1-1 R30-1 
 unnamed_net18	Q1-3 TP3-1 U2-1 R29-2 
-+5V	U2-16 VREG1-1 C17-1 CONN3-1 R41-1 R1-2 R4-2 R7-2 R6-2 R29-1 R33-2 D1-1 R32-1 
++5V	U2-16 VREG1-1 C17-1 CONN3-1 R41-1 R1-1 R4-2 R7-2 R6-2 R29-1 R33-2 D1-1 R32-1 
 unnamed_net17	U3-5 R32-2 R31-1 
 unnamed_net16	TP2-1 R30-2 U3-2 R31-2 
 unnamed_net15	U3-4 R33-1 D1-2 C11-2 
@@ -55,7 +55,7 @@ unnamed_net7	U6-6 TP1-1 R34-1
 unnamed_net6	C11-1 R34-2 
 unnamed_net5	CONN5-9 CONN4-9 
 unnamed_net4	CONN5-7 CONN4-7 
-+15V	VREG1-3 U4-7 C18-2 U1-8 U6-7 R40-2 R27-2 C8-1 U5-8 R26-1 R25-1 R9-1 R8-2 R3-2 C9-1 U3-3 CONN5-5 CONN4-5 
++15V	VREG1-3 U4-7 C18-2 U1-8 U6-7 R40-2 R27-2 C8-1 U5-8 R26-1 R25-1 R9-1 R8-2 R3-1 C9-1 U3-3 CONN5-5 CONN4-5 
 unnamed_net3	CONN5-3 CONN4-3 
 Chassis	CONN2-4 CONN2-3 CONN1-4 S1-7 CONN1-3 S3-8 S1-8 S3-7 TP11-1 CONN5-1 CONN4-1 
 unnamed_net2	CONN5-8 CONN4-8 
