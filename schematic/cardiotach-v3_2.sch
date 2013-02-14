@@ -1,4 +1,4 @@
-v 20110115 2
+v 20121123 2
 C 40000 40000 0 0 0 title-C.sym
 C 54000 51500 1 0 0 lm339-1.sym
 {
@@ -1474,7 +1474,7 @@ symversion=0.1
 T 51300 45900 5 10 1 1 0 6 1
 value=2.0uF
 T 51300 45500 5 10 1 1 0 6 1
-footprint=ACY400
+footprint=ACY600
 T 51300 45700 5 10 1 1 0 6 1
 comment=Metal Film
 }

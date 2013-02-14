@@ -1,0 +1,19 @@
+
+Flip the following parts
+C6
+R13
+C5
+R11
+R12
+BUZ2 - In PCB Layout
+D2
+R26
+R22
+R18
+R25
+R1
+R3
+VREG1
+
+Fix footprints
+C4 to same size as C11
