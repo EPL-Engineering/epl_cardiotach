@@ -8,19 +8,19 @@ unnamed_net51	R27-1 R28-1 U5-7
 unnamed_net50	C16-2 R28-2 U5-2 U5-6 
 unnamed_net49	C19-2 U5-5 
 unnamed_net48	BUZ2-1 U5-3 
-unnamed_net47	LED2-4 R26-1 
-unnamed_net46	D2-1 Q2-2 LED2-6 LED2-2 R25-1 
+unnamed_net47	LED2-4 R26-2 
+unnamed_net46	D2-1 Q2-2 LED2-6 LED2-2 R25-2 
 unnamed_net45	S2-1 R23-1 
 unnamed_net44	CONN3-2 R24-1 R23-2 
 unnamed_net43	U3-6 TP9-1 S2-4 R41-3 
 unnamed_net42	R40-1 R21-1 
-unnamed_net41	LED2-1 R22-2 
+unnamed_net41	LED2-1 R22-1 
 unnamed_net40	R19-2 U3-7 R20-1 
-unnamed_net39	U3-1 R22-1 R20-2 
-unnamed_net38	LED2-5 R18-2 
+unnamed_net39	U3-1 R22-2 R20-2 
+unnamed_net38	LED2-5 R18-1 
 unnamed_net37	S2-2 TP8-1 R21-3 R16-1 
 unnamed_net36	R16-2 U3-9 R17-1 
-unnamed_net35	R18-1 U3-14 R17-2 
+unnamed_net35	R18-2 U3-14 R17-2 
 Scaled_EKG_Out	CONN2-1 TP7-1 R14-1 R15-2 
 EKG_Out	S2-3 U3-8 R19-1 TP6-1 R14-2 U4-6 U4-2 C6-1 
 unnamed_net34	U1-2 R5-1 
@@ -55,7 +55,7 @@ unnamed_net7	U6-6 TP1-1 R34-1
 unnamed_net6	C11-1 R34-2 
 unnamed_net5	CONN5-9 CONN4-9 
 unnamed_net4	CONN5-7 CONN4-7 
-+15V	VREG1-3 U4-7 C18-2 U1-8 U6-7 R40-2 R27-2 C8-1 U5-8 R26-2 R25-2 R9-1 R8-2 R3-2 C9-1 U3-3 CONN5-5 CONN4-5 
++15V	VREG1-3 U4-7 C18-2 U1-8 U6-7 R40-2 R27-2 C8-1 U5-8 R26-1 R25-1 R9-1 R8-2 R3-2 C9-1 U3-3 CONN5-5 CONN4-5 
 unnamed_net3	CONN5-3 CONN4-3 
 Chassis	CONN2-4 CONN2-3 CONN1-4 S1-7 CONN1-3 S3-8 S1-8 S3-7 TP11-1 CONN5-1 CONN4-1 
 unnamed_net2	CONN5-8 CONN4-8 
