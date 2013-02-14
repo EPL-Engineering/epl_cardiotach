@@ -995,32 +995,6 @@ Element["" "RCY100" "C9" "0.1uF" 623000 212500 2500 -17000 0 100 ""]
 
 	)
 
-Element["" "ACY400" "R11" "470K" 97000 167500 -16000 9700 2 100 ""]
-(
-	Pin[0 0 5500 3000 6100 3000 "1" "1" "square,edge2"]
-	Pin[-40000 0 5500 3000 6100 3000 "2" "2" "edge2"]
-	ElementLine [-10000 0 0 0 1000]
-	ElementLine [-40000 0 -30000 0 1000]
-	ElementLine [-30000 3300 -10000 3300 1000]
-	ElementLine [-30000 -3300 -30000 3300 1000]
-	ElementLine [-30000 -3300 -10000 -3300 1000]
-	ElementLine [-10000 -3300 -10000 3300 1000]
-
-	)
-
-Element["" "ACY400" "R13" "470K" 31000 177000 -9700 -12000 1 100 ""]
-(
-	Pin[0 0 5500 3000 6100 3000 "1" "1" "square"]
-	Pin[0 -40000 5500 3000 6100 3000 "2" "2" ""]
-	ElementLine [0 -10000 0 0 1000]
-	ElementLine [0 -40000 0 -30000 1000]
-	ElementLine [-3300 -30000 -3300 -10000 1000]
-	ElementLine [-3300 -30000 3300 -30000 1000]
-	ElementLine [3300 -30000 3300 -10000 1000]
-	ElementLine [-3300 -10000 3300 -10000 1000]
-
-	)
-
 Element["" "JUMPER1" "TP10" "unknown" 100000 242500 -6000 -11500 0 100 ""]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square"]
@@ -1863,19 +1837,6 @@ Element["" "ACY400" "R24" "1K" 575500 122500 9500 -9700 0 100 ""]
 
 	)
 
-Element["" "ACY400" "C6" "1.0uF" 16000 167500 -9700 -12000 1 100 ""]
-(
-	Pin[0 0 5500 3000 6100 3000 "1" "1" "square"]
-	Pin[0 -40000 5500 3000 6100 3000 "2" "2" ""]
-	ElementLine [0 -10000 0 0 1000]
-	ElementLine [0 -40000 0 -30000 1000]
-	ElementLine [-3300 -30000 -3300 -10000 1000]
-	ElementLine [-3300 -30000 3300 -30000 1000]
-	ElementLine [3300 -30000 3300 -10000 1000]
-	ElementLine [-3300 -10000 3300 -10000 1000]
-
-	)
-
 Element["" "ACY400" "R17" "1M" 710500 277500 12000 -9700 0 100 ""]
 (
 	Pin[0 0 5500 3000 6100 3000 "1" "1" "square,edge2"]
@@ -2714,29 +2675,68 @@ Element["" "ACY600" "C4" "2.0uF" 66000 197500 27000 -12000 0 100 ""]
 
 	)
 
-Element["" "ACY400" "C5" "1.0uF" 97000 182500 -17500 9700 2 100 ""]
+Element["" "ACY400" "C6" "1.0uF" 16000 127500 9700 17500 3 100 ""]
 (
-	Pin[0 0 5500 3000 6100 3000 "1" "1" "square,edge2,thermal(1X)"]
-	Pin[-40000 0 5500 3000 6100 3000 "2" "2" "edge2"]
-	ElementLine [-10000 0 0 0 1000]
-	ElementLine [-40000 0 -30000 0 1000]
-	ElementLine [-30000 3300 -10000 3300 1000]
-	ElementLine [-30000 -3300 -30000 3300 1000]
-	ElementLine [-30000 -3300 -10000 -3300 1000]
-	ElementLine [-10000 -3300 -10000 3300 1000]
+	Pin[0 0 5500 3000 6100 3000 "1" "1" "square"]
+	Pin[0 40000 5500 3000 6100 3000 "2" "2" ""]
+	ElementLine [0 0 0 10000 1000]
+	ElementLine [0 30000 0 40000 1000]
+	ElementLine [3300 10000 3300 30000 1000]
+	ElementLine [-3300 30000 3300 30000 1000]
+	ElementLine [-3300 10000 -3300 30000 1000]
+	ElementLine [-3300 10000 3300 10000 1000]
 
 	)
 
-Element["" "ACY400" "R12" "470K" 53000 197500 -12000 9700 2 100 ""]
+Element["" "ACY400" "R13" "470K" 31000 137500 9700 15500 3 100 ""]
+(
+	Pin[0 0 5500 3000 6100 3000 "1" "1" "square"]
+	Pin[0 40000 5500 3000 6100 3000 "2" "2" ""]
+	ElementLine [0 0 0 10000 1000]
+	ElementLine [0 30000 0 40000 1000]
+	ElementLine [3300 10000 3300 30000 1000]
+	ElementLine [-3300 30000 3300 30000 1000]
+	ElementLine [-3300 10000 -3300 30000 1000]
+	ElementLine [-3300 10000 3300 10000 1000]
+
+	)
+
+Element["" "ACY400" "R11" "470K" 57000 167500 16000 -9700 0 100 ""]
 (
 	Pin[0 0 5500 3000 6100 3000 "1" "1" "square,edge2"]
-	Pin[-40000 0 5500 3000 6100 3000 "2" "2" "edge2"]
-	ElementLine [-10000 0 0 0 1000]
-	ElementLine [-40000 0 -30000 0 1000]
-	ElementLine [-30000 3300 -10000 3300 1000]
-	ElementLine [-30000 -3300 -30000 3300 1000]
-	ElementLine [-30000 -3300 -10000 -3300 1000]
-	ElementLine [-10000 -3300 -10000 3300 1000]
+	Pin[40000 0 5500 3000 6100 3000 "2" "2" "edge2"]
+	ElementLine [0 0 10000 0 1000]
+	ElementLine [30000 0 40000 0 1000]
+	ElementLine [10000 -3300 30000 -3300 1000]
+	ElementLine [30000 -3300 30000 3300 1000]
+	ElementLine [10000 3300 30000 3300 1000]
+	ElementLine [10000 -3300 10000 3300 1000]
+
+	)
+
+Element["" "ACY400" "C5" "1.0uF" 57000 182500 17500 -9700 0 100 ""]
+(
+	Pin[0 0 5500 3000 6100 3000 "1" "1" "square,edge2"]
+	Pin[40000 0 5500 3000 6100 3000 "2" "2" "edge2,thermal(1X)"]
+	ElementLine [0 0 10000 0 1000]
+	ElementLine [30000 0 40000 0 1000]
+	ElementLine [10000 -3300 30000 -3300 1000]
+	ElementLine [30000 -3300 30000 3300 1000]
+	ElementLine [10000 3300 30000 3300 1000]
+	ElementLine [10000 -3300 10000 3300 1000]
+
+	)
+
+Element["" "ACY400" "R12" "470K" 13000 197500 12000 -9700 0 100 ""]
+(
+	Pin[0 0 5500 3000 6100 3000 "1" "1" "square,edge2"]
+	Pin[40000 0 5500 3000 6100 3000 "2" "2" "edge2"]
+	ElementLine [0 0 10000 0 1000]
+	ElementLine [30000 0 40000 0 1000]
+	ElementLine [10000 -3300 30000 -3300 1000]
+	ElementLine [30000 -3300 30000 3300 1000]
+	ElementLine [10000 3300 30000 3300 1000]
+	ElementLine [10000 -3300 10000 3300 1000]
 
 	)
 Layer(1 "component")
@@ -4339,7 +4339,7 @@ NetList()
 	)
 	Net("EKG_Out" "(unknown)")
 	(
-		Connect("C6-2")
+		Connect("C6-1")
 		Connect("R14-2")
 		Connect("R19-1")
 		Connect("S2-3")
@@ -4353,7 +4353,7 @@ NetList()
 		Connect("BUZ2-2")
 		Connect("C1-1")
 		Connect("C4-1")
-		Connect("C5-1")
+		Connect("C5-2")
 		Connect("C7-1")
 		Connect("C8-2")
 		Connect("C9-2")
@@ -4566,28 +4566,28 @@ NetList()
 	)
 	Net("unnamed_net30" "(unknown)")
 	(
-		Connect("C5-2")
-		Connect("R11-2")
-		Connect("R12-1")
-	)
-	Net("unnamed_net31" "(unknown)")
-	(
 		Connect("C4-2")
 		Connect("R10-2")
-		Connect("R11-1")
+		Connect("R11-2")
 		Connect("TP5-1")
 		Connect("U1-1")
 	)
+	Net("unnamed_net31" "(unknown)")
+	(
+		Connect("C5-1")
+		Connect("R11-1")
+		Connect("R12-2")
+	)
 	Net("unnamed_net32" "(unknown)")
 	(
-		Connect("C6-1")
-		Connect("R12-2")
-		Connect("R13-1")
+		Connect("C6-2")
+		Connect("R12-1")
+		Connect("R13-2")
 	)
 	Net("unnamed_net33" "(unknown)")
 	(
 		Connect("C7-2")
-		Connect("R13-2")
+		Connect("R13-1")
 		Connect("U4-3")
 	)
 	Net("unnamed_net34" "(unknown)")
