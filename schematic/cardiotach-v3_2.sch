@@ -1306,7 +1306,7 @@ refdes=TP2
 T 61800 56900 5 10 0 0 0 0 1
 device=TESTPOINT
 T 61800 56700 5 10 0 0 0 0 1
-footprint=JUMPER1
+footprint=S1751-46R.fp
 T 61500 56500 5 10 1 1 0 3 1
 comment=Pulse
 }
@@ -1317,7 +1317,7 @@ refdes=TP3
 T 43400 52800 5 10 0 0 0 0 1
 device=TESTPOINT
 T 43400 52600 5 10 0 0 0 0 1
-footprint=JUMPER1
+footprint=S1751-46R.fp
 T 43100 52400 5 10 1 1 0 3 1
 comment=TTL_Pulse
 }
@@ -1328,7 +1328,7 @@ refdes=TP4
 T 47200 49700 5 10 0 0 0 0 1
 device=TESTPOINT
 T 47200 49500 5 10 0 0 0 0 1
-footprint=JUMPER1
+footprint=S1751-46R.fp
 T 46900 49300 5 10 1 1 0 3 1
 comment=Freq_In
 }
@@ -1340,7 +1340,7 @@ refdes=TP5
 T 54300 50400 5 10 0 0 0 0 1
 device=TESTPOINT
 T 54300 50200 5 10 0 0 0 0 1
-footprint=JUMPER1
+footprint=S1751-46R.fp
 T 54000 50000 5 10 1 1 0 3 1
 comment=FVC_Out
 }
@@ -1351,7 +1351,7 @@ refdes=TP7
 T 60500 46300 5 10 0 0 0 0 1
 device=TESTPOINT
 T 60500 46100 5 10 0 0 0 0 1
-footprint=JUMPER1
+footprint=S1751-46R.fp
 T 60200 45800 5 10 0 1 0 0 1
 comment=Scaled_EKG_Out
 }
@@ -1363,7 +1363,7 @@ refdes=TP8
 T 41800 47000 5 10 0 0 0 0 1
 device=TESTPOINT
 T 41800 46800 5 10 0 0 0 0 1
-footprint=JUMPER1
+footprint=S1751-46R.fp
 T 41500 46600 5 10 1 1 0 3 1
 comment=Max_Level
 }
@@ -1375,7 +1375,7 @@ refdes=TP9
 T 42700 43200 5 10 0 0 0 0 1
 device=TESTPOINT
 T 42700 43000 5 10 0 0 0 0 1
-footprint=JUMPER1
+footprint=S1751-46R.fp
 T 42400 42800 5 10 1 1 0 3 1
 comment=Min_Level
 }
@@ -1386,7 +1386,7 @@ refdes=TP10
 T 53500 45700 5 10 0 0 0 0 1
 device=TESTPOINT
 T 53500 45500 5 10 0 0 0 0 1
-footprint=JUMPER1
+footprint=S1751-46R.fp
 T 53200 45300 5 10 1 1 0 3 1
 comment=Alarm
 }
@@ -1573,7 +1573,7 @@ refdes=TP6
 T 61200 49200 5 10 0 0 0 0 1
 device=TESTPOINT
 T 61200 49000 5 10 0 0 0 0 1
-footprint=JUMPER1
+footprint=S1751-46R.fp
 T 60900 48800 5 10 1 1 0 3 1
 comment=EKG_Out
 }

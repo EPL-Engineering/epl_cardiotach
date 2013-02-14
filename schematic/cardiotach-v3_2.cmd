@@ -447,6 +447,10 @@ ChangePinName(U3, 13, 13)
 ChangePinName(U3, 10, 10)
 ChangePinName(U3, 11, 11)
 
+# Start of element C1000
+ChangePinName(C1000, 2, 2)
+ChangePinName(C1000, 1, 1)
+
 # Start of element TP11
 ChangePinName(TP11, 1, 1)
 
