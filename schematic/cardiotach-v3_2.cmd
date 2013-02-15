@@ -2,6 +2,9 @@
 
 # Start of element LCD1
 
+# Start of element TP17
+ChangePinName(TP17, 1, 1)
+
 # Start of element VREG1
 ChangePinName(VREG1, 1, 1)
 ChangePinName(VREG1, 2, 2)
@@ -446,6 +449,28 @@ ChangePinName(U3, 3, 3)
 ChangePinName(U3, 13, 13)
 ChangePinName(U3, 10, 10)
 ChangePinName(U3, 11, 11)
+
+# Start of element TP18
+ChangePinName(TP18, 1, 1)
+
+# Start of element TP16
+ChangePinName(TP16, 1, 1)
+
+# Start of element TP15
+ChangePinName(TP15, 1, 1)
+
+# Start of element TP14
+ChangePinName(TP14, 1, 1)
+
+# Start of element TP13
+ChangePinName(TP13, 1, 1)
+
+# Start of element TP12
+ChangePinName(TP12, 1, 1)
+
+# Start of element C1001
+ChangePinName(C1001, 2, 2)
+ChangePinName(C1001, 1, 1)
 
 # Start of element C1000
 ChangePinName(C1000, 2, 2)

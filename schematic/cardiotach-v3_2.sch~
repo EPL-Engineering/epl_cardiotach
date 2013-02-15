@@ -1152,7 +1152,7 @@ refdes=CONN1
 T 40400 56500 5 10 1 1 0 0 1
 model-name=AMPHENOL_BNC_31-5431
 T 40400 56300 5 10 1 1 0 0 1
-footprint=AMPHENOL_BNC_31-5431-short
+footprint=AMPHENOL_BNC_31-5431-ver2
 T 40400 55600 5 10 0 0 0 0 1
 symversion=1.0
 }
@@ -1165,7 +1165,7 @@ refdes=CONN2
 T 61400 44700 5 10 1 1 0 6 1
 model-name=AMPHENOL_BNC_31-5431
 T 61400 44500 5 10 1 1 0 6 1
-footprint=AMPHENOL_BNC_31-5431-short
+footprint=AMPHENOL_BNC_31-5431-ver2
 T 61400 43800 5 10 0 0 0 0 1
 symversion=1.0
 }
@@ -1375,7 +1375,7 @@ refdes=TP9
 T 42700 43200 5 10 0 0 0 0 1
 device=TESTPOINT
 T 42700 43000 5 10 0 0 0 0 1
-footprint=JUMPER1
+footprint=S1751-46R.fp
 T 42400 42800 5 10 1 1 0 3 1
 comment=Min_Level
 }
