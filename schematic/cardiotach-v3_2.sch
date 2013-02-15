@@ -1295,7 +1295,7 @@ refdes=TP1
 T 53600 55800 5 10 0 0 0 0 1
 device=TESTPOINT
 T 53600 55600 5 10 0 0 0 0 1
-footprint=JUMPER1
+footprint=S1751-46R.fp
 T 53300 55400 5 10 1 1 0 3 1
 comment=Amplified
 }
