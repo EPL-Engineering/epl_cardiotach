@@ -1,110 +1,50 @@
-refdes, device, footprint, value, comment, model-name, netname, symversion
-BUZ1., BEEPER, AI-2429-TWT-12V-3-R.fp, , KHz 12VDC, AI-2429-TWT-12V-3-R, , 0.1
-BUZ2., BEEPER, PB-1408.fp, , kHz 12VDC, PB-1408, , 0.1
-C1., CAPACITOR, ACY1000, 4.7uF, , , , 0.1
-C2., CAPACITOR, ACY300, 470pF, Mica, , , 0.1
-C3., CAPACITOR, ACY400, 1.0uF, Metal Film, , , 0.1
-C4., CAPACITOR, ACY400, 2.0uF, Metal Film, , , 0.1
-C5., CAPACITOR, ACY400, 1.0uF, Metal Film, , , 0.1
-C6., CAPACITOR, ACY400, 1.0uF, Metal Film, , , 0.1
-C7., CAPACITOR, ACY400, 1.0uF, Metal Film, , , 0.1
-C8., CAPACITOR, ACY400, 1.0uF, , , , 0.1
-C9., CAPACITOR, RCY100, 0.1uF, Ceramic, C315C104M5U5TA, , 0.1
-C10., CAPACITOR, RCY100, 0.1uF, Ceramic, C315C104M5U5TA, , 0.1
-C11., CAPACITOR, ACY400, 2.0uF, Metal Film, , , 0.1
-C12., CAPACITOR, ACY300, 0.01uF, , , , 0.1
-C13., CAPACITOR, ACY300, 0.01uF, , , , 0.1
-C14., CAPACITOR, ACY300, 0.1uF, Metal Film, , , 0.1
-C15., CAPACITOR, ACY300, 0.1uF, Metal Film, , , 0.1
-C16., CAPACITOR, ACY300, 0.1uF, , , , 0.1
-C17., POLARIZED_CAPACITOR, RCY100P, 1.0uF, Electrolytic, , , 0.1
-C18., CAPACITOR, RCY100, 0.01uF, Ceramic, C315C104M5U5TA, , 0.1
-C19., CAPACITOR, ACY300, 0.01uF, Metal Film, P4513-ND, , 0.1
-CONN1, Dual_Two_Way_Switch, AMPHENOL_BNC_31-5431-short, , , AMPHENOL_BNC_31-5431, , 1.0
-CONN2, Dual_Two_Way_Switch, AMPHENOL_BNC_31-5431-short, , , AMPHENOL_BNC_31-5431, , 1.0
-CONN3, CONNECTOR_4, JUMPER4, , DP-650 LCD Meter, , , 
-CONN4, CONNECTOR_9, JUMPER9, , MiniHex9 on wire leads, , , 
-CONN5, CONNECTOR_9, JUMPER9, , MiniHex9 on wire leads, , , 
-D1, DIODE, ALF400, , , 1N4148, , 
-D2, DIODE, ALF400, , , 1N4148, , 
-LCD1, , DP-650-vertical.fp, , This is just to make the symbol for
-	the LCD display show up., , , 
-LED1., LED, T1.75_LED, , Yellow, , , 0.1
-LED2.1, LED, LPF-C013301S, , _1, , , 0.1
-LED2.2, LED, LPF-C013301S, , _2, , , 0.1
-LED2.3, LED, LPF-C013301S, , _3, , , 0.1
-Q1, 2N3904, TO92, , , , , 
-Q2, 2N3904, TO92, , , , , 
-R1, RESISTOR, ACY400, 22K, , , , 
-R2, RESISTOR, ACY400, 56K, , , , 
-R3, RESISTOR, ACY400, 18K, , , , 
-R4, RESISTOR, ACY400, 10K, , , , 
-R5, RESISTOR, ACY400, 18K, , , , 
-R6, RESISTOR, ACY400, 1K, , , , 
-R7, RESISTOR, ACY400, 75K, , , , 
-R8, RESISTOR, ACY400, 2.2K, , , , 
-R9, VARIABLE_RESISTOR, JUMPER3, 25K, Panel Mount, , , 
-R10, RESISTOR, ACY400, 100K, , , , 
-R11, RESISTOR, ACY400, 470K, , , , 
-R12, RESISTOR, ACY400, 470K, , , , 
-R13, RESISTOR, ACY400, 470K, , , , 
-R14, RESISTOR, ACY400, 500, , , , 
-R15, RESISTOR, ACY400, 1K, , , , 
-R16, RESISTOR, ACY400, 4.7K, , , , 
-R17, RESISTOR, ACY400, 1M, , , , 
-R18, RESISTOR, ACY400, 2.2K, , , , 
-R19, RESISTOR, ACY400, 4.7K, , , , 
-R20, RESISTOR, ACY400, 1M, , , , 
-R21, VARIABLE_RESISTOR, JUMPER3, 5K, Panel Mount, , , 
-R22, RESISTOR, ACY400, 2.2K, , , , 
-R23, RESISTOR, ACY400, 150K, , , , 
-R24, RESISTOR, ACY400, 1K, , , , 
-R25, RESISTOR, ACY400, 100K, , , , 
-R26, RESISTOR, ACY400, 2.2K, , , , 
-R27, RESISTOR, ACY400, 4.7K, , , , 
-R28, RESISTOR, ACY400, 470K, , , , 
-R29, RESISTOR, ACY400, 4.7K, , , , 
-R30, RESISTOR, ACY400, 4.7K, , , , 
-R31, RESISTOR, ACY400, 56K, , , , 
-R32, RESISTOR, ACY400, 2.2K, , , , 
-R33, RESISTOR, ACY400, 100K, , , , 
-R34, RESISTOR, ACY400, 1.8K, , , , 
-R35, RESISTOR, ACY400, 30K, , , , 
-R36, RESISTOR, ACY400, 30K, , , , 
-R37, RESISTOR, ACY400, 100K, , , , 
-R38, RESISTOR, ACY400, 100K, , , , 
-R39, VARIABLE_RESISTOR, JUMPER3, 25K, Panel Mount, , , 
-R40, RESISTOR, ACY400, 1.5K, , , , 
-R41, VARIABLE_RESISTOR, JUMPER3, 5K, Panel Mount, , , 
-R42, RESISTOR, ACY400, 100K, , , , 
-S1, Dual_Two_Way_Switch, CK_7201SYAQE.fp, , , 7201SYAQE, , 1.0
-S2, , JUMPER4, , S2 Settings
-Set Max.
-Run
-Set Min., , , 
-S3, Dual_Two_Way_Switch, CK_7201SYAQE.fp, , S3 Settings
-Alarm Enable
-Tacit, 7201SYAQE, , 1.0
-TP1., TESTPOINT, JUMPER1, , Amplified, , , 
-TP2., TESTPOINT, JUMPER1, , Pulse, , , 
-TP3., TESTPOINT, JUMPER1, , TTL_Pulse, , , 
-TP4., TESTPOINT, JUMPER1, , Freq_In, , , 
-TP5., TESTPOINT, JUMPER1, , FVC_Out, , , 
-TP6., TESTPOINT, JUMPER1, , EKG_Out, , , 
-TP7., TESTPOINT, JUMPER1, , Scaled_EKG_Out, , , 
-TP8., TESTPOINT, JUMPER1, , Max_Level, , , 
-TP9., TESTPOINT, JUMPER1, , Min_Level, , , 
-TP10., TESTPOINT, JUMPER1, , Alarm, , , 
-TP11., TESTPOINT, JUMPER1, , , , ChassisGND, 
-U1., LM331, DIP8, , , , , 
-U2., 74221, DIP16, , , , , 
-U2.1, 74221, DIP16, , _1, , , 
-U2.2, 74221, DIP16, , _2, , , 
-U3.1, LM339, DIP16, , _1, , , 1.0
-U3.2, LM339, DIP16, , _2, , , 1.0
-U3.3, LM339, DIP16, , _3, , , 1.0
-U3.4, LM339, DIP16, , _4, , , 1.0
-U4., LF356, DIP8, , , , , 
-U5, LM555, DIP8, , , , , 
-U6., INA129, DIP8, , , , , 1.0
-VREG1, 7805, TO92, , , , , 
+# $Id$,,,,,,,,
+# PcbBOM Version 1.0,,,,,,,,
+# Date: Fri Feb 15 23:12:31 2013 UTC,,,,,,,,
+# Author: ,,,,,,,,
+# Title: (unknown) - PCB BOM,,,,,,,,
+# Quantity, Description, Value, RefDes,Type,Part Number,Digikey Part Number,Mouser Part Number,Newark Part Number
+# --------------------------------------------,,,,,,,,
+3,"ACY300","0.01uF",C12 C13 C19 ,,,,,
+2,"ACY400","1M",R20 R17 ,,,,,
+5,"ACY400","4.7K",R16 R27 R30 R19 R29 ,,,,,
+3,"ACY300","0.1uF",C16 C15 C14 ,,,,,
+6,"ACY400","100K",R38 R37 R33 R42 R10 R25 ,,,,,
+3,"RCY100","0.1uF",C10 C9 C8 ,,,,,
+2,"JUMPER3","25K",R39 R9 ,,,,,
+2,"JUMPER4","unknown",S2 CONN3 ,,,,,
+5,"ACY400","2.2K",R32 R8 R26 R22 R18 ,,,,,
+2,"ACY400","30K",R35 R36 ,,,,,
+1,"JUMPER1","unknown",TP11 ,,,,,
+4,"ACY400","470K",R28 R13 R11 R12 ,,,,,
+3,"ACY400","1K",R6 R15 R24 ,,,,,
+1,"RCY100P","1.0uF",C17 ,,,,,
+1,"ACY400","1.8K",R34 ,,,,,
+2,"JUMPER9","unknown",CONN5 CONN4 ,,,,,
+1,"ACY400","1.5K",R40 ,,,,,
+2,"ALF400","unknown",D1 D2 ,,,,,
+2,"JUMPER3","5K",R41 R21 ,,,,,
+2,"CK_7201SYAQE.fp","unknown",S1 S3 ,,,,,
+1,"AI-2429-TWT-12V-3-R.fp","unknown",BUZ1 ,,,,,
+2,"ACY400","56K",R31 R2 ,,,,,
+1,"ACY400","500",R14 ,,,,,
+3,"TO92","unknown",Q2 Q1 VREG1 ,,,,,
+1,"DP-650-vertical.fp","unknown",LCD1 ,,,,,
+4,"ACY400","1.0uF",C7 C3 C6 C5 ,,,,,
+1,"ACY400","10K",R4 ,,,,,
+1,"ACY1000","4.7uF",C1 ,,,,,
+1,"ACY400","75K",R7 ,,,,,
+2,"ACY400","18K",R5 R3 ,,,,,
+1,"ACY300","470pF",C2 ,,,,,
+1,"ACY400","150K",R23 ,,,,,
+3,"RCY100","0.01uF",C18 C1000 C1001 ,,,,,
+1,"T1.75_LED","unknown",LED1 ,,,,,
+2,"ACY600","2.0uF",C11 C4 ,,,,,
+1,"ACY400","22K",R1 ,,,,,
+4,"DIP8","unknown",U4 U5 U1 U6 ,,,,,
+1,"DIP16","unknown",U2 ,,,,,
+1,"DIP14","unknown",U3 ,,,,,
+17,"S1751-46R.fp","unknown",TP2 TP3 TP4 TP5 TP6 TP7 TP8 TP9 TP10 TP12 TP14 TP15 TP16 TP13 TP17 TP18 TP1 ,,,,,
+1,"LPF-C013301S","unknown",LED2 ,,,,,
+2,"AMPHENOL_BNC_31-5431-ver2","unknown",CONN1 CONN2 ,,,,,
+1,"PB-1408.fp","unknown",BUZ2 ,,,,,

@@ -902,6 +902,8 @@ T 47500 42000 5 10 1 1 0 0 1
 comment=DP-650 LCD Meter
 T 47500 41800 5 10 1 1 0 0 1
 footprint=JUMPER4
+T 49200 40500 5 10 0 1 0 0 1
+value=DP-650
 }
 N 44100 41000 43700 41000 4
 N 46800 42000 46800 41300 4
@@ -1295,7 +1297,7 @@ refdes=TP1
 T 53600 55800 5 10 0 0 0 0 1
 device=TESTPOINT
 T 53600 55600 5 10 0 0 0 0 1
-footprint=JUMPER1
+footprint=S1751-46R.fp
 T 53300 55400 5 10 1 1 0 3 1
 comment=Amplified
 }
@@ -1586,8 +1588,8 @@ T 50500 42000 5 10 1 1 0 0 1
 refdes=Q2
 T 50400 41600 5 10 1 1 0 0 1
 footprint=TO92
-T 50500 41600 5 10 1 1 0 0 1
-footprint=TO92
+T 49600 41500 5 10 0 1 0 0 1
+value=2N3904
 }
 C 60000 52400 1 90 0 2N3904-1.sym
 {
@@ -1597,6 +1599,8 @@ T 59500 53300 5 10 1 1 90 0 1
 refdes=Q1
 T 59900 53300 5 10 1 1 90 0 1
 footprint=TO92
+T 60000 52400 5 10 0 1 0 0 1
+value=2N3904
 }
 C 46900 46500 1 0 1 74xxxpower-1.sym
 {
@@ -1661,11 +1665,6 @@ footprint=DIP14
 }
 C 43700 40700 1 0 1 sp3t-noblock-modified.sym
 {
-T 43300 41600 5 10 1 1 0 3 4
-comment=S2 Settings
-Set Max.
-Run
-Set Min.
 T 43300 41400 5 10 1 1 0 3 1
 footprint=JUMPER4
 T 43300 41800 5 10 1 1 0 3 1
@@ -1675,6 +1674,10 @@ comment=S2 Settings
 Set Max.
 Run
 Set Min.
+T 43300 41600 5 10 1 1 0 3 1
+value=50D36-01-1-AJN
+T 43700 40700 5 10 1 1 0 0 1
+digikey=GH7273-ND
 }
 N 51400 42400 51800 42400 4
 C 42700 54200 1 0 1 7201SYAQE-switch-dpdt.sym
