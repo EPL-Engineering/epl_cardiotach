@@ -1,4 +1,4 @@
-v 20100214 2
+v 20121123 2
 C 40000 40000 0 0 0 title-C.sym
 T 41100 40400 9 25 1 0 0 0 2
 This is where I deal with some issues in the netlisting of 
@@ -16,7 +16,7 @@ netname=Chassis
 C 48000 50300 1 0 0 7201SYAQE-switch-dpdt-pt2.sym
 {
 T 48410 51150 5 10 0 0 0 0 1
-device=Dual_Two_Way_Switch
+device=BNC_CONNECTOR
 T 48510 51100 5 10 1 1 0 3 1
 refdes=S3
 T 48700 52000 5 10 0 0 0 0 1
@@ -43,7 +43,7 @@ netname=Chassis
 C 46000 50300 1 0 0 7201SYAQE-switch-dpdt-pt2.sym
 {
 T 46410 51150 5 10 0 0 0 0 1
-device=Dual_Two_Way_Switch
+device=BNC_CONNECTOR
 T 46510 51100 5 10 1 1 0 3 1
 refdes=S1
 T 46700 52000 5 10 0 0 0 0 1
@@ -76,7 +76,7 @@ device=INPUT
 C 50900 50300 1 0 0 AMPHENOL_BNC_31-5431-pt2.sym
 {
 T 51310 51150 5 10 0 0 0 0 1
-device=Dual_Two_Way_Switch
+device=BNC_CONNECTOR
 T 51410 51100 5 10 1 1 0 3 1
 refdes=CONN1
 T 51600 52000 5 10 0 0 0 0 1
@@ -91,7 +91,7 @@ N 52500 50400 52500 50000 4
 C 54000 50300 1 0 0 AMPHENOL_BNC_31-5431-pt2.sym
 {
 T 54410 51150 5 10 0 0 0 0 1
-device=Dual_Two_Way_Switch
+device=BNC_CONNECTOR
 T 54510 51100 5 10 1 1 0 3 1
 refdes=CONN2
 T 54700 52000 5 10 0 0 0 0 1
@@ -112,6 +112,10 @@ footprint=DP-650-vertical.fp
 T 49300 47600 5 10 1 1 0 0 2
 comment=This is just to make the symbol for
 	the LCD display show up.
+T 49300 47000 5 10 0 1 0 0 1
+value=DP-650
+T 49300 47000 5 10 0 1 0 0 1
+device=DIGITAL_VOLT_METER
 }
 T 55000 40700 14 8 1 0 0 0 1
 Hidden Magic

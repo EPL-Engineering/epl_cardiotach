@@ -4,7 +4,7 @@ C 48900 48600 1 0 0 connector9-1.sym
 {
 T 49000 52100 5 10 0 0 0 0 1
 device=CONNECTOR_9
-T 48900 51900 5 10 1 1 0 0 1
+T 48900 52100 5 10 1 1 0 0 1
 refdes=CONN4
 T 53100 49100 5 10 1 1 0 0 1
 comment=MiniHex9 on wire leads
@@ -26,10 +26,12 @@ T 49500 49200 5 10 1 1 0 0 1
 comment=J black
 T 49500 48900 5 10 1 1 0 0 1
 comment=K
-T 48900 51500 5 10 1 1 0 0 1
-footprint=JUMPER9
 T 48900 51700 5 10 1 1 0 0 1
+footprint=JUMPER9
+T 48900 51900 5 10 1 1 0 0 1
 comment=MiniHex9 on wire leads
+T 48900 51500 5 10 1 1 0 0 1
+value=126-221
 }
 N 50600 47200 51400 47200 4
 {
@@ -114,7 +116,7 @@ C 48900 44600 1 0 0 connector9-1.sym
 {
 T 49000 48100 5 10 0 0 0 0 1
 device=CONNECTOR_9
-T 48900 47900 5 10 1 1 0 0 1
+T 48900 48100 5 10 1 1 0 0 1
 refdes=CONN5
 T 52900 45100 5 10 1 1 0 0 1
 comment=MiniHex9 on wire leads
@@ -136,10 +138,12 @@ T 49500 45200 5 10 1 1 0 0 1
 comment=J black
 T 49500 44900 5 10 1 1 0 0 1
 comment=K
-T 48900 47700 5 10 1 1 0 0 1
+T 48900 47900 5 10 1 1 0 0 1
 comment=MiniHex9 on wire leads
-T 48900 47500 5 10 1 1 0 0 1
+T 48900 47700 5 10 1 1 0 0 1
 footprint=JUMPER9
+T 48900 47500 5 10 1 1 0 0 1
+value=126-220
 }
 C 52000 51900 1 0 0 generic-power.sym
 {
@@ -166,6 +170,8 @@ T 51400 52300 5 10 1 1 0 3 1
 netname=ChassisGND
 T 51300 51800 5 10 0 1 0 0 1
 footprint=JUMPER1
+T 51300 51800 5 10 0 1 0 0 1
+value=Reserved for Chassis Connection
 }
 C 54100 47000 1 270 1 capacitor-1.sym
 {
@@ -176,7 +182,7 @@ refdes=C1000
 T 55000 47200 5 10 0 0 90 2 1
 symversion=0.1
 T 54600 47600 5 10 1 1 0 0 1
-value=0.01uF
+value=0.1uF
 T 54600 47000 5 10 1 1 0 0 1
 footprint=RCY100
 T 54600 47200 5 10 1 1 0 0 1
@@ -197,7 +203,7 @@ refdes=C1001
 T 57500 47200 5 10 0 0 90 2 1
 symversion=0.1
 T 57100 47600 5 10 1 1 0 0 1
-value=0.01uF
+value=0.1uF
 T 57100 47000 5 10 1 1 0 0 1
 footprint=RCY100
 T 57100 47200 5 10 1 1 0 0 1
@@ -219,6 +225,8 @@ T 44300 46800 5 10 0 0 0 0 1
 footprint=S1751-46R.fp
 T 44000 46600 5 10 1 1 0 3 1
 comment=GND
+T 43900 46100 5 10 0 1 0 0 1
+value=S1751-46R
 }
 C 43900 45400 1 0 0 gnd-1.sym
 N 44000 45700 44000 46100 4
@@ -232,6 +240,8 @@ T 45000 46800 5 10 1 1 0 3 1
 refdes=TP13
 T 45000 46600 5 10 1 1 0 3 1
 comment=GND
+T 44900 46100 5 10 0 1 0 0 1
+value=S1751-46R
 }
 C 44900 45400 1 0 0 gnd-1.sym
 N 45000 45700 45000 46100 4
@@ -245,6 +255,8 @@ T 46000 46800 5 10 1 1 0 3 1
 refdes=TP14
 T 46000 46600 5 10 1 1 0 3 1
 comment=GND
+T 45900 46100 5 10 0 1 0 0 1
+value=S1751-46R
 }
 C 45900 45400 1 0 0 gnd-1.sym
 N 46000 45700 46000 46100 4
@@ -258,6 +270,8 @@ T 53100 52500 5 10 1 1 0 3 1
 refdes=TP15
 T 53100 52300 5 10 1 1 0 3 1
 comment=+15V
+T 53000 51800 5 10 0 1 0 0 1
+value=S1751-46R
 }
 N 53100 51800 53100 51000 4
 C 53700 51800 1 0 0 testpt-1.sym
@@ -270,6 +284,8 @@ T 53800 52500 5 10 1 1 0 3 1
 refdes=TP16
 T 53800 52300 5 10 1 1 0 3 1
 comment=-15V
+T 53700 51800 5 10 0 1 0 0 1
+value=S1751-46R
 }
 N 53800 50300 53800 51800 4
 C 46900 46100 1 0 0 testpt-1.sym
@@ -282,6 +298,8 @@ T 47000 46800 5 10 1 1 0 3 1
 refdes=TP18
 T 47000 46600 5 10 1 1 0 3 1
 comment=GND
+T 46900 46100 5 10 0 1 0 0 1
+value=S1751-46R
 }
 C 46900 45400 1 0 0 gnd-1.sym
 N 47000 45700 47000 46100 4

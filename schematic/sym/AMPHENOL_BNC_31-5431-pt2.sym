@@ -1,4 +1,4 @@
-v 20091004 2
+v 20121123 2
 T 410 850 8 10 0 0 0 0 1
 device=Dual_Two_Way_Switch
 P 300 100 0 100 1 0 1
@@ -32,3 +32,5 @@ model-name=AMPHENOL_BNC_31-5431
 T 495 450 8 10 1 1 0 3 1
 footprint=AMPHENOL_BNC_31-5431.fp
 B 300 0 400 200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T -737 0 8 10 0 1 0 0 1
+device=BNC_CONNECTOR

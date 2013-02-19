@@ -24,11 +24,11 @@ T 860 150 5 10 0 1 0 0 1
 pintype=pas
 }
 T 510 800 8 10 1 1 0 3 1
-refdes=S?
+refdes=CONN?
 T 700 1700 8 10 0 0 0 0 1
 symversion=1.0
 T 495 650 8 10 1 1 0 3 1
-model-name=7201SYAQE
+model-name=AMPHENOL_BNC_31-5431
 T 495 450 8 10 1 1 0 3 1
-footprint=CK_7201SYAQE.fp
+footprint=AMPHENOL_BNC_31-5431.fp
 B 300 0 400 200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
