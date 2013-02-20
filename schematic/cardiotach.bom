@@ -12,7 +12,7 @@ CAPACITOR		0.1uF			RCY100				6		C10 C1000 C1001 C18 C8 C9	C315C104M5U5TA		399-41
 CAPACITOR		1.0uF			ACY400				4		C3 C5 C6 C7			ECQ-V1H105JL		P4675-ND						1.0uF Metal Film Capacitor
 CAPACITOR		2.0uF			ACY600				2		C11 C4				ECQ-E1225KF		EF1225-ND						2.0uF (really 2.2uF) Metal Film Capacitor
 CAPACITOR		4.7uF			ACY1000				1		C1				ECQ-E1475KF		EF1475							4.7uF Metal Film Capacitor
-CAPACITOR		470pF			ACY300				1		C2														470pF Mica Capacitor
+CAPACITOR		470pF			ACY300				1		C2				CD15FD471JO3F		338-2591-ND						470pF Mica Capacitor
 CONNECTOR_9		126-220			JUMPER9				1		CONN5				126-220			N.A.					42FX124		Mini-Hex 9 male Connector
 CONNECTOR_9		126-221			JUMPER9				1		CONN4				126-221			N.A.					42FX118		Mini-Hex 9 Female Connector
 DIGITAL_VOLT_METER	See BOM Note #2		DP-650-vertical.fp		1		LCD1				DP-650										3 1/2 Digit LCD Digital Panel Volt Meter (200mV Full Scale) (Connected to board via Molex Mini Connectors)
@@ -25,7 +25,7 @@ LF356			LF356			DIP8				1		U4				LF356N/NOPB		LF356N/NOPB-ND						Operational Am
 LM331			LM331			DIP8				1		U1				LM331AN/NOPB		LM331AN/NOPB-ND						F/V or V/F Converter 100KHz Max.
 LM339			LM339			DIP14				1		U3				LM339AN			497-1587-5-ND						Quad Comparator with Open Collector Output (Slow)
 LM555			LM555			DIP8				1		U5				LM555CN			LM555CNFS-ND						Timer/Oscillator
-POLARIZED_CAPACITOR	1.0uF			RCY100P				1		C17														1uF Electrolytic Capacitor
+POLARIZED_CAPACITOR	1.0uF			RCY100P				1		C17				EEU-EB1J1R0		P13139-ND						1uF Electrolytic Capacitor
 RESISTOR		1.5K			ACY400				1		R40														1.5K Ohm 0.25 Watt Metal Film Resistor
 RESISTOR		1.8K			ACY400				1		R34														1.8K Ohm 0.25 Watt Carbon/Metal Film Resistor
 RESISTOR		100K			ACY400				1		R33														100K Ohm 0.25 Watt Carbon/Metal Film Resistor
@@ -52,8 +52,8 @@ TESTPOINT		Reserved		JUMPER1				1		TP11														Not Stuffed
 TESTPOINT		S1751-46R		S1751-46R.fp			17		TP1 TP10 TP12 TP13 TP14	 
 												TP15 TP16 TP17 TP18 TP2 
 												TP3 TP4 TP5 TP6 TP7 TP8 TP9	S1751-46R		952-1478-1-ND						SMT Loop Test Points (For Ruggedness Hard Brass is the core)
-VARIABLE_RESISTOR	25K			JUMPER3				2		R39 R9														25K Ohm Variable Resistor (Molex Mini Connector to board)
-VARIABLE_RESISTOR	5K			JUMPER3				2		R21 R41														5K Ohm Variable Resistor (Molex Mini Connector to board)
+VARIABLE_RESISTOR	25K			JUMPER3				2		R39 R9				308NPC25K		308NPC253-ND						25K Ohm Variable Resistor (Molex Mini Connector to board)
+VARIABLE_RESISTOR	5K			JUMPER3				2		R21 R41				308NPC5K		308NPC502-ND						5K Ohm Variable Resistor (Molex Mini Connector to board)
 
 BOM Note 1: LED2 is actually 3 seperate LEDs mounted on the board with a light pipe assembly over them.
 BOM Note 2: LCD1 has to be ordered from Acculex. It is not available via the three distributors listed. While there are alternatives sold I have tried a few and been unhappy with the results. Also note that LCD1 is the footprint for the actually LCD on the board while CONN3 is the connector for the cable from the LCD to the cardiotach PCB. I used a Molex Mini Connector for this.
