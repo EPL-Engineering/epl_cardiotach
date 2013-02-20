@@ -1,17 +1,17 @@
-									
-..device		value			footprint			quantity	refdes				Part Number	Digikey				Mouser		Newark		Description
-2N3904			2N3904			TO92				2		Q1 Q2														NPN Bipolar Transistor General Purpose
-74221			74221			DIP16				1		U2														Dual Monostable Multivibrator
-7805			LM78L05			TO92				1		VREG1				LM78L05ACZ		LM78L05ACZFS-ND						Adjustable Voltage Low Dropout Regulator
-BEEPER			AI-2429-TWT-12V-3-R	AI-2429-TWT-12V-3-R.fp		1		BUZ1				AI-2429-TWT-12V-3-R	668-1026-ND							Piezo Buzzer 12VDC 24MM PCB Mount
-BEEPER			PB-1408			PB-1408.fp			1		BUZ2				PB-1408-1		433-1065-ND						Piezo Buzzer 4.0KHZ 3-16VDC 80DB PCB Mount
-BNC Connector		31-5431			AMPHENOL_BNC_31-5431-ver2	2		CONN1 CONN2			31-5431			ARF1065-ND						BNC Connector Right Angle PCB Mount (Do Not Substitute)
-CAPACITOR		0.01uF			ACY300				3		C12 C13 C19			ECQ-V1H103JL		P4513-ND						0.01uF Metal Film Capacitor
-CAPACITOR		0.1uF			ACY300				3		C14 C15 C16													0.1uF Metal Film Capacitor
+						
+..device		value			footprint			quantity	refdes				Part Number		Digikey			Mouser		Newark		Description
+2N3904			2N3904			TO92				2		Q1 Q2				2N3904BU		2N3904FS-ND		512-2N3904BU 			NPN Bipolar Transistor General Purpose
+74221			74221			DIP16				1		U2				SN74221N		296-33608-5-ND		595-SN74221N 			Dual Monostable Multivibrator
+7805			LM78L05			TO92				1		VREG1				LM78L05ACZ		LM78L05ACZFS-ND		512-LM78L05ACZ 			Adjustable Voltage Low Dropout Regulator
+BEEPER			AI-2429-TWT-12V-3-R	AI-2429-TWT-12V-3-R.fp		1		BUZ1				AI-2429-TWT-12V-3-R	668-1026-ND		665-AI2429TWT12V3R 		Piezo Buzzer 12VDC 24MM PCB Mount
+BEEPER			PB-1408			PB-1408.fp			1		BUZ2				PB-1408-1		433-1065-ND		None				Piezo Buzzer 4.0KHZ 3-16VDC 80DB PCB Mount
+BNC Connector		31-5431			AMPHENOL_BNC_31-5431-ver2	2		CONN1 CONN2			31-5431			ARF1065-ND		523-31-5431 			BNC Connector Right Angle PCB Mount (Do Not Substitute)
+CAPACITOR		0.01uF			ACY300				3		C12 C13 C19			ECQ-V1H103JL		P4513-ND		667-ECQ-V1H103JL 		0.01uF Metal Film Capacitor
+CAPACITOR		0.1uF			ACY300				3		C14 C15 C16			ECQ-P1H103GZ		P3103-ND						0.1uF Metal Film Capacitor
 CAPACITOR		0.1uF			RCY100				6		C10 C1000 C1001 C18 C8 C9	C315C104M5U5TA		399-4151-ND						0.1uF Ceramic Capacitor
-CAPACITOR		1.0uF			ACY400				4		C3 C5 C6 C7													1.0uF Metal Film Capacitor
-CAPACITOR		2.0uF			ACY600				2		C11 C4														2.0uF (really 2.2uF) Metal Film Capacitor
-CAPACITOR		4.7uF			ACY1000				1		C1														4.7uF Metal Film Capacitor
+CAPACITOR		1.0uF			ACY400				4		C3 C5 C6 C7			ECQ-V1H105JL		P4675-ND						1.0uF Metal Film Capacitor
+CAPACITOR		2.0uF			ACY600				2		C11 C4				ECQ-E1225KF		EF1225-ND						2.0uF (really 2.2uF) Metal Film Capacitor
+CAPACITOR		4.7uF			ACY1000				1		C1				ECQ-E1475KF		EF1475							4.7uF Metal Film Capacitor
 CAPACITOR		470pF			ACY300				1		C2														470pF Mica Capacitor
 CONNECTOR_9		126-220			JUMPER9				1		CONN5				126-220			N.A.					42FX124		Mini-Hex 9 male Connector
 CONNECTOR_9		126-221			JUMPER9				1		CONN4				126-221			N.A.					42FX118		Mini-Hex 9 Female Connector
