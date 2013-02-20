@@ -13,8 +13,8 @@ CAPACITOR		1.0uF			ACY400				4		C3 C5 C6 C7			ECQ-V1H105JL		P4675-ND						1.0uF 
 CAPACITOR		2.0uF			ACY600				2		C11 C4				ECQ-E1225KF		EF1225-ND						2.0uF (really 2.2uF) Metal Film Capacitor
 CAPACITOR		4.7uF			ACY1000				1		C1				ECQ-E1475KF		EF1475							4.7uF Metal Film Capacitor
 CAPACITOR		470pF			ACY300				1		C2				CD15FD471JO3F		338-2591-ND						470pF Mica Capacitor
-CONNECTOR_9		126-220			JUMPER9				1		CONN5				126-220			N.A.					42FX124		Mini-Hex 9 male Connector
-CONNECTOR_9		126-221			JUMPER9				1		CONN4				126-221			N.A.					42FX118		Mini-Hex 9 Female Connector
+CONNECTOR_9		126-220			JUMPER9				1		CONN5				126-220			N.A.			N.A.		42FX124		Mini-Hex 9 male Connector
+CONNECTOR_9		126-221			JUMPER9				1		CONN4				126-221			N.A.			N.A.		42FX118		Mini-Hex 9 Female Connector
 DIGITAL_VOLT_METER	See BOM Note #2		DP-650-vertical.fp		1		LCD1				DP-650										3 1/2 Digit LCD Digital Panel Volt Meter (200mV Full Scale) (Connected to board via Molex Mini Connectors)
 DIODE			1N4148			ALF400				2		D1 D2				1N4148TA		1N4148TACT-ND						General Pupose Signal Diode 1V fV @ 10mA fI
 Dual_Two_Way_Switch	7201SYAQE		CK_7201SYAQE.fp			2		S1 S3				7201SYAQE		CKN1480-ND						DPDT Switch Right Angle PCB and Chassis Mount
