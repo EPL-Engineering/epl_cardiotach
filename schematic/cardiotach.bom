@@ -15,7 +15,7 @@ CAPACITOR		4.7uF			ACY1000				1		C1													4.7uF Metal Film Capacitor
 CAPACITOR		470pF			ACY300				1		C2													470pF Mica Capacitor
 CONNECTOR_9		126-220			JUMPER9				1		CONN5				126-220		N.A.					42FX124		Mini-Hex 9 male Connector
 CONNECTOR_9		126-221			JUMPER9				1		CONN4				126-221		N.A.					42FX118		Mini-Hex 9 Female Connector
-DIGITAL_VOLT_METER	DP-650			DP-650-vertical.fp		1		LCD1													3 1/2 Digit LCD Digital Panel Volt Meter (200mV Full Scale) (Connected to board via Molex Mini Connectors)
+DIGITAL_VOLT_METER	See BOM Note #2		DP-650-vertical.fp		1		LCD1				DP-650									3 1/2 Digit LCD Digital Panel Volt Meter (200mV Full Scale) (Connected to board via Molex Mini Connectors)
 DIODE			1N4148			ALF400				2		D1 D2													General Pupose Signal Diode
 Dual_Two_Way_Switch	7201SYAQE		CK_7201SYAQE.fp			2		S1 S3													DPDT Switch Right Angle PCB and Chassis Mount
 INA129			INA129			DIP8				1		U6													Instrumentation Operational Amplifier 1.3MHz GBW
@@ -27,18 +27,23 @@ LM339			LM339			DIP14				1		U3													Quad Comparator with Open Collector O
 LM555			LM555			DIP8				1		U5													Timer/Oscillator
 POLARIZED_CAPACITOR	1.0uF			RCY100P				1		C17													1uF Electrolytic Capacitor
 RESISTOR		1.5K			ACY400				1		R40													1.5K Ohm 0.25 Watt Metal Film Resistor
-RESISTOR		1.8K			ACY400				1		R34													1.8K Ohm 0.25 Watt Metal Film Resistor
-RESISTOR		100K			ACY400				6		R10 R25 R33 R37 R38 R42											100K Ohm 0.25 Watt Metal Film Resistor
-RESISTOR		10K			ACY400				1		R4													10K Ohm 0.25 Watt Metal Film Resistor
+RESISTOR		1.8K			ACY400				1		R34													1.8K Ohm 0.25 Watt Carbon/Metal Film Resistor
+RESISTOR		100K			ACY400				1		R33													100K Ohm 0.25 Watt Carbon/Metal Film Resistor
+RESISTOR		100K			ACY400				5		R10 R25 R37 R38 R42											100K Ohm 0.25 Watt Metal Film Resistor
+RESISTOR		10K			ACY400				1		R4													10K Ohm 0.25 Watt Carbon/Metal Film Resistor
 RESISTOR		150K			ACY400				1		R23													150K Ohm 0.25 Watt Metal Film Resistor
 RESISTOR		18K			ACY400				2		R3 R5													18K Ohm 0.25 Watt Metal Film Resistor
-RESISTOR		1K			ACY400				3		R15 R24 R6												1K Ohm 0.25 Watt Metal Film Resistor
+RESISTOR		1K			ACY400				2		R15 R24													1K Ohm 0.25 Watt Metal Film Resistor
+RESISTOR		1K			ACY400				1		R6													1K Ohm 0.25 Watt Carbon/Metal Film Resistor
 RESISTOR		1M			ACY400				2		R17 R20													1M Ohm 0.25 Watt Metal Film Resistor
-RESISTOR		2.2K			ACY400				5		R18 R22 R26 R32 R8											2.2K Ohm 0.25 Watt Metal Film Resistor
+RESISTOR		2.2K			ACY400				4		R8 R18 R22 R26												2.2K Ohm 0.25 Watt Carbon/Metal Film Resistor
+RESISTOR		2.2K			ACY400				1		R32													2.2K Ohm 0.25 Watt Metal Film Resistor
 RESISTOR		22K			ACY400				1		R1													22K Ohm 0.25 Watt Metal Film Resistor
 RESISTOR		30K			ACY400				2		R35 R36													30K Ohm 0.25 Watt Metal Film Resistor
-RESISTOR		4.7K			ACY400				5		R16 R19 R27 R29 R30											4.7K Ohm 0.25 Watt Metal Film Resistor
-RESISTOR		470K			ACY400				4		R11 R12 R13 R28												470K Ohm 0.25 Watt Metal Film Resistor
+RESISTOR		4.7K			ACY400				3		R27 R29 R30												4.7K Ohm 0.25 Watt Carbon/Metal Film Resistor
+RESISTOR		4.7K			ACY400				2		R16 R19													4.7K Ohm 0.25 Watt Metal Film Resistor
+RESISTOR		470K			ACY400				1		R28													470K Ohm 0.25 Watt Carbon/Metal Film Resistor
+RESISTOR		470K			ACY400				3		R11 R12 R13 R28												470K Ohm 0.25 Watt Metal Film Resistor
 RESISTOR		500			ACY400				1		R14													500 Ohm 0.25 Watt Metal Film Resistor
 RESISTOR		56K			ACY400				2		R2 R31													56K Ohm 0.25 Watt Metal Film Resistor
 RESISTOR		75K			ACY400				1		R7													75K Ohm 0.25 Watt Metal Film Resistor
@@ -49,3 +54,8 @@ TESTPOINT		S1751-46R		S1751-46R.fp			17		TP1 TP10 TP12 TP13 TP14
 												TP3 TP4 TP5 TP6 TP7 TP8 TP9										SMT Loop Test Points (For Ruggedness Hard Brass is the core)
 VARIABLE_RESISTOR	25K			JUMPER3				2		R39 R9													25K Ohm Variable Resistor (Molex Mini Connector to board)
 VARIABLE_RESISTOR	5K			JUMPER3				2		R21 R41													5K Ohm Variable Resistor (Molex Mini Connector to board)
+
+BOM Note 1: LED2 is actually 3 seperate LEDs mounted on the board with a light pipe assembly over them.
+BOM Note 2: LCD1 has to be ordered from Acculex. It is not available via the three distributors listed. While there are alternatives sold I have tried a few and been unhappy with the results. Also note that LCD1 is the footprint for the actually LCD on the board while CONN3 is the connector for the cable from the LCD to the cardiotach PCB. I used a Molex Mini Connector for this.
+BOM General Note: The composition of resistors is listed as Carbon/Metal Film for parts that can be ether composition. This is important for persons trying to understand the design. It also might be appealing for cost reasons in sizable production volumes or more likely if you just happen to be running out of a particular type.
+
