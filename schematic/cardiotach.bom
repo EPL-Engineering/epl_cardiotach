@@ -21,8 +21,8 @@ Dual_Two_Way_Switch	7201SYAQE		CK_7201SYAQE.fp			2		S1 S3				7201SYAQE		CKN1480-
 INA129			INA129			DIP8				1		U6				INA129PA		INA129PA-ND						Instrumentation Operational Amplifier 1.3MHz GBW
 LED			Generic Yellow LED	T1.75_LED			1		LED1				SLR-342YY3F		511-1252-ND						Yellow T1.75 LED
 LED			See BOM Note #1		LPF-C013301S			1		LED2				LPF-C013301S		67-1851-ND						3 x SMT LEDs (2 Red, 1 Green) and a Light Pipe
-LED			See BOM Note #1						2		LED2a LED2c			SML-LX23SRC-TR		67-1341-1-ND						Red SMT LED
-LED			See BOM Note #1						1		LED2b				SML-LX23GC-TR		67-1339-1-ND						Green SMT LED
+LED			See BOM Note #1						2		LED2a LED2c			SML-LX23SRC-TR		67-1341-1-ND						Red SMT LED 20mA test @ fV = 1.7V typical
+LED			See BOM Note #1						1		LED2b				SML-LX23GC-TR		67-1339-1-ND						Green SMT LED 20mA test @ fV = 2.2V typical
 LF356			LF356			DIP8				1		U4				LF356N/NOPB		LF356N/NOPB-ND						Operational Amplifier 5MHz GBP Unity Gain Stable able to drive Capacitive Loads
 LM331			LM331			DIP8				1		U1				LM331AN/NOPB		LM331AN/NOPB-ND						F/V or V/F Converter 100KHz Max.
 LM339			LM339			DIP14				1		U3				LM339AN			497-1587-5-ND						Quad Comparator with Open Collector Output (Slow)
