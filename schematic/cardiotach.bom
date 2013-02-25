@@ -19,43 +19,45 @@ DIGITAL_VOLT_METER	See BOM Note #2		DP-650-vertical.fp		1		LCD1				DP-650							
 DIODE			1N4148			ALF400				2		D1 D2				1N4148TA		1N4148TACT-ND						General Pupose Signal Diode 1V fV @ 10mA fI
 Dual_Two_Way_Switch	7201SYAQE		CK_7201SYAQE.fp			2		S1 S3				7201SYAQE		CKN1480-ND						DPDT Switch Right Angle PCB and Chassis Mount
 INA129			INA129			DIP8				1		U6				INA129PA		INA129PA-ND						Instrumentation Operational Amplifier 1.3MHz GBW
-LED			Generic Yellow LED	T1.75_LED			1		LED1														Yellow T1.75 LED
-LED			See BOM Note #1		LPF-C013301S			1		LED2														3 x SMT LEDs (2 Red, 1 Green) and a Light Pipe		
+LED			Generic Yellow LED	T1.75_LED			1		LED1				SLR-342YY3F		511-1252-ND						Yellow T1.75 LED
+LED			See BOM Note #1		LPF-C013301S			1		LED2				LPF-C013301S		67-1851-ND						3 x SMT LEDs (2 Red, 1 Green) and a Light Pipe
+LED			See BOM Note #1						2		LED2a LED2c			SML-LX23SRC-TR		67-1341-1-ND						Red SMT LED
+LED			See BOM Note #1						1		LED2b				SML-LX23GC-TR		67-1339-1-ND						Green SMT LED
 LF356			LF356			DIP8				1		U4				LF356N/NOPB		LF356N/NOPB-ND						Operational Amplifier 5MHz GBP Unity Gain Stable able to drive Capacitive Loads
 LM331			LM331			DIP8				1		U1				LM331AN/NOPB		LM331AN/NOPB-ND						F/V or V/F Converter 100KHz Max.
 LM339			LM339			DIP14				1		U3				LM339AN			497-1587-5-ND						Quad Comparator with Open Collector Output (Slow)
 LM555			LM555			DIP8				1		U5				LM555CN			LM555CNFS-ND						Timer/Oscillator
 POLARIZED_CAPACITOR	1.0uF			RCY100P				1		C17				EEU-EB1J1R0		P13139-ND						1uF Electrolytic Capacitor
-RESISTOR		1.5K			ACY400				1		R40														1.5K Ohm 0.25 Watt Metal Film Resistor
-RESISTOR		1.8K			ACY400				1		R34														1.8K Ohm 0.25 Watt Carbon/Metal Film Resistor
-RESISTOR		100K			ACY400				1		R33														100K Ohm 0.25 Watt Carbon/Metal Film Resistor
-RESISTOR		100K			ACY400				5		R10 R25 R37 R38 R42												100K Ohm 0.25 Watt Metal Film Resistor
-RESISTOR		10K			ACY400				1		R4														10K Ohm 0.25 Watt Carbon/Metal Film Resistor
-RESISTOR		150K			ACY400				1		R23														150K Ohm 0.25 Watt Metal Film Resistor
-RESISTOR		18K			ACY400				2		R3 R5														18K Ohm 0.25 Watt Metal Film Resistor
-RESISTOR		1K			ACY400				2		R15 R24														1K Ohm 0.25 Watt Metal Film Resistor
-RESISTOR		1K			ACY400				1		R6														1K Ohm 0.25 Watt Carbon/Metal Film Resistor
-RESISTOR		1M			ACY400				2		R17 R20														1M Ohm 0.25 Watt Metal Film Resistor
-RESISTOR		2.2K			ACY400				4		R8 R18 R22 R26													2.2K Ohm 0.25 Watt Carbon/Metal Film Resistor
-RESISTOR		2.2K			ACY400				1		R32														2.2K Ohm 0.25 Watt Metal Film Resistor
-RESISTOR		22K			ACY400				1		R1														22K Ohm 0.25 Watt Metal Film Resistor
-RESISTOR		30K			ACY400				2		R35 R36														30K Ohm 0.25 Watt Metal Film Resistor
-RESISTOR		4.7K			ACY400				3		R27 R29 R30													4.7K Ohm 0.25 Watt Carbon/Metal Film Resistor
-RESISTOR		4.7K			ACY400				2		R16 R19														4.7K Ohm 0.25 Watt Metal Film Resistor
-RESISTOR		470K			ACY400				1		R28														470K Ohm 0.25 Watt Carbon/Metal Film Resistor
-RESISTOR		470K			ACY400				3		R11 R12 R13 R28													470K Ohm 0.25 Watt Metal Film Resistor
-RESISTOR		500			ACY400				1		R14														500 Ohm 0.25 Watt Metal Film Resistor
-RESISTOR		56K			ACY400				2		R2 R31														56K Ohm 0.25 Watt Metal Film Resistor
-RESISTOR		75K			ACY400				1		R7														75K Ohm 0.25 Watt Metal Film Resistor
+RESISTOR		1.5K			ACY400				1		R40				RNF14FTD1K50		RNF14FTD1K50CT-ND					1.5K Ohm 0.25 Watt Metal Film
+RESISTOR		1.8K			ACY400				1		R34				CF14JT1K80		CF14JT1K80CT-ND						1.8K Ohm 0.25 Watt Carbon/Metal Film Resistor
+RESISTOR		100K			ACY400				1		R33				CF14JT100K		CF14JT100KCT-ND						100K Ohm 0.25 Watt Carbon/Metal Film Resistor
+RESISTOR		100K			ACY400				5		R10 R25 R37 R38 R42		RNMF14FTC100K		S100KCACT-ND						100K Ohm 0.25 Watt Metal Film Resistor
+RESISTOR		10K			ACY400				1		R4				CFM14JT10K0		S10KQCT-ND						10K Ohm 0.25 Watt Carbon/Metal Film Resistor
+RESISTOR		150K			ACY400				1		R23				RNMF14FTC150K		S150KCACT-ND						150K Ohm 0.25 Watt Metal Film Resistor
+RESISTOR		18K			ACY400				2		R3 R5				CF14JT18K0		CF14JT18K0CT-ND						18K Ohm 0.25 Watt Metal Film Resistor
+RESISTOR		1K			ACY400				2		R15 R24				RNF14FTD1K00		RNF14FTD1K00CT-ND					1K Ohm 0.25 Watt Metal Film Resistor
+RESISTOR		1K			ACY400				1		R6				CF14JT1K00		CF14JT1K00						1K Ohm 0.25 Watt Carbon/Metal Film Resistor
+RESISTOR		1M			ACY400				2		R17 R20				MFR-25FBF-52-251M00	1.00MXBK-ND						1M Ohm 0.25 Watt Metal Film Resistor
+RESISTOR		2.2K			ACY400				4		R8 R18 R22 R26			CF14JT2K20		CF14JT2K20CT-ND						2.2K Ohm 0.25 Watt Carbon/Metal Film Resistor
+RESISTOR		2.2K			ACY400				1		R32				MFP-25BRD52-2K2		2.2KADCT-ND						2.2K Ohm 0.25 Watt Metal Film Resistor
+RESISTOR		22K			ACY400				1		R1				HHV-25JR-52-22K		22KAACT-ND						22K Ohm 0.25 Watt Metal Film Resistor
+RESISTOR		30K			ACY400				2		R35 R36				RNMF14FTC30K0		S30KCACT-ND						30K Ohm 0.25 Watt Metal Film Resistor
+RESISTOR		4.7K			ACY400				3		R27 R29 R30			CF14JT4K70		CF14JT4K70CT-ND						4.7K Ohm 0.25 Watt Carbon/Metal Film Resistor
+RESISTOR		4.7K			ACY400				2		R16 R19				RNMF14FTC4K70		S4.7KCACT-ND						4.7K Ohm 0.25 Watt Metal Film Resistor
+RESISTOR		470K			ACY400				1		R28				CF14JT470K		CF14JT470KCT-ND						470K Ohm 0.25 Watt Carbon/Metal Film Resistor
+RESISTOR		470K			ACY400				3		R11 R12 R13 R28			RNMF14FTC470K		S473KCACT-ND						470K Ohm 0.25 Watt Metal Film Resistor
+RESISTOR		500			ACY400				1		R14				RNF14FTD499R		RNF14FTD499RCT-ND					500 Ohm 0.25 Watt Metal Film Resistor
+RESISTOR		56K			ACY400				2		R2 R31				RNMF14FTC56K0		S56KCACT-ND						56K Ohm 0.25 Watt Metal Film Resistor
+RESISTOR		75K			ACY400				1		R7				RNF14FTD75K0		RNF14FTD75K0CT-ND					75K Ohm 0.25 Watt Metal Film Resistor
 SP4T			50D36-01-1-AJN		JUMPER4				1		S2				50D36-01-1-AJN		GH7273-ND						10 Position Rotary Switch Limited to 4 Positions Chassis Mount (Molex Mini Connector to Board)
-TESTPOINT		Reserved		JUMPER1				1		TP11														Not Stuffed
+TESTPOINT		Reserved		JUMPER1				1		TP11				--			--			--		--		Not Stuffed
 TESTPOINT		S1751-46R		S1751-46R.fp			17		TP1 TP10 TP12 TP13 TP14	 
 												TP15 TP16 TP17 TP18 TP2 
 												TP3 TP4 TP5 TP6 TP7 TP8 TP9	S1751-46R		952-1478-1-ND						SMT Loop Test Points (For Ruggedness Hard Brass is the core)
 VARIABLE_RESISTOR	25K			JUMPER3				2		R39 R9				308NPC25K		308NPC253-ND						25K Ohm Variable Resistor (Molex Mini Connector to board)
 VARIABLE_RESISTOR	5K			JUMPER3				2		R21 R41				308NPC5K		308NPC502-ND						5K Ohm Variable Resistor (Molex Mini Connector to board)
 
-BOM Note 1: LED2 is actually 3 seperate LEDs mounted on the board with a light pipe assembly over them.
+BOM Note 1: LED2 is actually 3 seperate LEDs (LED2a, LED2b, LED2c) mounted on the board with a light pipe assembly (LED2) over them.
 BOM Note 2: LCD1 has to be ordered from Acculex. It is not available via the three distributors listed. While there are alternatives sold I have tried a few and been unhappy with the results. Also note that LCD1 is the footprint for the actually LCD on the board while CONN3 is the connector for the cable from the LCD to the cardiotach PCB. I used a Molex Mini Connector for this.
 BOM General Note: The composition of resistors is listed as Carbon/Metal Film for parts that can be ether composition. This is important for persons trying to understand the design. It also might be appealing for cost reasons in sizable production volumes or more likely if you just happen to be running out of a particular type.
 
