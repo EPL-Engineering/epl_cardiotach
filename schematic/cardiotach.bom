@@ -1,32 +1,32 @@
 						
 ..device		value			footprint			quantity	refdes				Part Number		Digikey			Mouser		Newark		Description
-2N3904			2N3904			TO92				2		Q1 Q2				2N3904BU		2N3904FS-ND		512-2N3904BU 			NPN Bipolar Transistor General Purpose
-74221			74221			DIP16				1		U2				SN74221N		296-33608-5-ND		595-SN74221N 			Dual Monostable Multivibrator
-7805			LM78L05			TO92				1		VREG1				LM78L05ACZ		LM78L05ACZFS-ND		512-LM78L05ACZ 			Adjustable Voltage Low Dropout Regulator
-BEEPER			AI-2429-TWT-12V-3-R	AI-2429-TWT-12V-3-R.fp		1		BUZ1				AI-2429-TWT-12V-3-R	668-1026-ND		665-AI2429TWT12V3R 		Piezo Buzzer 12VDC 24MM PCB Mount
-BEEPER			PB-1408			PB-1408.fp			1		BUZ2				PB-1408-1		433-1065-ND		None				Piezo Buzzer 4.0KHZ 3-16VDC 80DB PCB Mount
-BNC Connector		31-5431			AMPHENOL_BNC_31-5431-ver2	2		CONN1 CONN2			31-5431			ARF1065-ND		523-31-5431 			BNC Connector Right Angle PCB Mount (Do Not Substitute)
-CAPACITOR		0.01uF			ACY300				3		C12 C13 C19			ECQ-V1H103JL		P4513-ND		667-ECQ-V1H103JL 		0.01uF Metal Film Capacitor
-CAPACITOR		0.1uF			ACY300				3		C14 C15 C16			ECQ-P1H103GZ		P3103-ND						0.1uF Metal Film Capacitor
-CAPACITOR		0.1uF			RCY100				6		C10 C1000 C1001 C18 C8 C9	C315C104M5U5TA		399-4151-ND						0.1uF Ceramic Capacitor
-CAPACITOR		1.0uF			ACY400				4		C3 C5 C6 C7			ECQ-V1H105JL		P4675-ND						1.0uF Metal Film Capacitor
-CAPACITOR		2.0uF			ACY600				2		C11 C4				ECQ-E1225KF		EF1225-ND						2.0uF (really 2.2uF) Metal Film Capacitor
-CAPACITOR		4.7uF			ACY1000				1		C1				ECQ-E1475KF		EF1475							4.7uF Metal Film Capacitor
-CAPACITOR		470pF			ACY300				1		C2				CD15FD471JO3F		338-2591-ND						470pF Mica Capacitor
+2N3904			2N3904			TO92				2		Q1 Q2				2N3904BU		2N3904FS-ND		512-2N3904BU 	83C3116		NPN Bipolar Transistor General Purpose
+74221			74221			DIP16				1		U2				SN74221N		296-33608-5-ND		595-SN74221N 	67K1125		Dual Monostable Multivibrator
+7805			LM78L05			TO92				1		VREG1				LM78L05ACZ		LM78L05ACZFS-ND		512-LM78L05ACZ 	72K8848		Adjustable Voltage Low Dropout Regulator
+BEEPER			AI-2429-TWT-12V-3-R	AI-2429-TWT-12V-3-R.fp		1		BUZ1				AI-2429-TWT-12V-3-R	668-1026-ND		665-AI2429TWT12V3R 96K2752	Piezo Buzzer 12VDC 24MM PCB Mount
+BEEPER			PB-1408			PB-1408.fp			1		BUZ2				PB-1408-1		433-1065-ND		None		None		Piezo Buzzer 4.0KHZ 3-16VDC 80DB PCB Mount
+BNC Connector		31-5431			AMPHENOL_BNC_31-5431-ver2	2		CONN1 CONN2			31-5431			ARF1065-ND		523-31-5431 	73K1441		BNC Connector Right Angle PCB Mount (Do Not Substitute)
+CAPACITOR		0.01uF			ACY300				3		C12 C13 C19			ECQ-V1H103JL		P4513-ND		667-ECQ-V1H103JL	39P9862		0.01uF Metal Film Capacitor
+CAPACITOR		0.1uF			ACY300				3		C14 C15 C16			ECQ-P1H103GZ		P3103-ND		667-ECQ-P1H103GZ None		0.1uF Metal Film Capacitor
+CAPACITOR		0.1uF			RCY100				6		C10 C1000 C1001 C18 C8 C9	C315C104M5U5TA		399-4151-ND		80-C315C104M5U 	39K6432		0.1uF Ceramic Capacitor
+CAPACITOR		1.0uF			ACY400				4		C3 C5 C6 C7			ECQ-V1H105JL		P4675-ND		667-ECQ-V1H105JL 32R8863		1.0uF Metal Film Capacitor
+CAPACITOR		2.0uF			ACY600				2		C11 C4				ECQ-E1225KF		EF1225-ND		667-ECQ-E1225KF 49W0453		2.0uF (really 2.2uF) Metal Film Capacitor
+CAPACITOR		4.7uF			ACY1000				1		C1				ECQ-E1475KF		EF1475			667-ECQ-E1475KF 49W0664		4.7uF Metal Film Capacitor
+CAPACITOR		470pF			ACY300				1		C2				CD15FD471JO3F		338-2591-ND		598-CD15FD471JO3F 81K0643		470pF Mica Capacitor
 CONNECTOR_9		126-220			JUMPER9				1		CONN5				126-220			N.A.			N.A.		42FX124		Mini-Hex 9 male Connector
 CONNECTOR_9		126-221			JUMPER9				1		CONN4				126-221			N.A.			N.A.		42FX118		Mini-Hex 9 Female Connector
 DIGITAL_VOLT_METER	See BOM Note #2		DP-650-vertical.fp		1		LCD1				DP-650			N.A.			N.A.		N.A.		3 1/2 Digit LCD Digital Panel Volt Meter (200mV Full Scale) (Connected to board via Molex Mini Connectors)
-DIODE			1N4148			ALF400				2		D1 D2				1N4148TA		1N4148TACT-ND						General Pupose Signal Diode 1V fV @ 10mA fI
-Dual_Two_Way_Switch	7201SYAQE		CK_7201SYAQE.fp			2		S1 S3				7201SYAQE		CKN1480-ND						DPDT Switch Right Angle PCB and Chassis Mount
-INA129			INA129			DIP8				1		U6				INA129PA		INA129PA-ND						Instrumentation Operational Amplifier 1.3MHz GBW
-LED			Generic Yellow LED	T1.75_LED			1		LED1				SLR-342YY3F		511-1252-ND						Yellow T1.75 LED
-LED			See BOM Note #1		LPF-C013301S			1		LED2				LPF-C013301S		67-1851-ND						3 x SMT LEDs (2 Red, 1 Green) and a Light Pipe
-LED			See BOM Note #1						2		LED2a LED2c			SML-LX23SRC-TR		67-1341-1-ND						Red SMT LED 20mA test @ fV = 1.7V typical
-LED			See BOM Note #1						1		LED2b				SML-LX23GC-TR		67-1339-1-ND						Green SMT LED 20mA test @ fV = 2.2V typical
-LF356			LF356			DIP8				1		U4				LF356N/NOPB		LF356N/NOPB-ND						Operational Amplifier 5MHz GBP Unity Gain Stable able to drive Capacitive Loads
-LM331			LM331			DIP8				1		U1				LM331AN/NOPB		LM331AN/NOPB-ND						F/V or V/F Converter 100KHz Max.
-LM339			LM339			DIP14				1		U3				LM339AN			497-1587-5-ND						Quad Comparator with Open Collector Output (Slow)
-LM555			LM555			DIP8				1		U5				LM555CN			LM555CNFS-ND						Timer/Oscillator
+DIODE			1N4148			ALF400				2		D1 D2				1N4148TA		1N4148TACT-ND		78-1N4148-TAP 	44K0365		General Pupose Signal Diode 1V fV @ 10mA fI
+Dual_Two_Way_Switch	7201SYAQE		CK_7201SYAQE.fp			2		S1 S3				7201SYAQE		CKN1480-ND		611-7201-100 	40M6032		DPDT Switch Right Angle PCB and Chassis Mount
+INA129			INA129			DIP8				1		U6				INA129PA		INA129PA-ND		595-INA129PA 	78K5993		Instrumentation Operational Amplifier 1.3MHz GBW
+LED			Generic Yellow LED	T1.75_LED			1		LED1				SLR-342YY3F		511-1252-ND		755-SLR-342YY3F 40P3280		Yellow T1.75 LED
+LED			See BOM Note #1		LPF-C013301S			1		LED2				LPF-C013301S		67-1851-ND		696-LPF-C013301S 21J7168		3 x SMT LEDs (2 Red, 1 Green) and a Light Pipe
+LED			See BOM Note #1		LPF-C013301S			2		LED2a LED2c			SML-LX23SRC-TR		67-1341-1-ND		696-SML-LX23SRC 09J9581		Red SMT LED 20mA test @ fV = 1.7V typical
+LED			See BOM Note #1		LPF-C013301S			1		LED2b				SML-LX23GC-TR		67-1339-1-ND		696-SML-LX23GC 	75K1466		Green SMT LED 20mA test @ fV = 2.2V typical
+LF356			LF356			DIP8				1		U4				LF356N/NOPB		LF356N/NOPB-ND		926-LF356N/NOPB 41K2547		Operational Amplifier 5MHz GBP Unity Gain Stable able to drive Capacitive Loads
+LM331			LM331			DIP8				1		U1				LM331AN/NOPB		LM331AN/NOPB-ND		926-LM331AN/NOPB 58K8938	F/V or V/F Converter 100KHz Max.
+LM339			LM339			DIP14				1		U3				LM339AN			497-1587-5-ND		595-LM339AN 	58K8938		Quad Comparator with Open Collector Output (Slow)
+LM555			LM555			DIP8				1		U5				LM555CN			LM555CNFS-ND		512-LM555CN 	58K8943		Timer/Oscillator
 POLARIZED_CAPACITOR	1.0uF			RCY100P				1		C17				EEU-EB1J1R0		P13139-ND						1uF Electrolytic Capacitor
 RESISTOR		1.5K			ACY400				1		R40				RNF14FTD1K50		RNF14FTD1K50CT-ND					1.5K Ohm 0.25 Watt Metal Film
 RESISTOR		1.8K			ACY400				1		R34				CF14JT1K80		CF14JT1K80CT-ND						1.8K Ohm 0.25 Watt Carbon/Metal Film Resistor
@@ -49,15 +49,19 @@ RESISTOR		470K			ACY400				3		R11 R12 R13 R28			RNMF14FTC470K		S473KCACT-ND					
 RESISTOR		500			ACY400				1		R14				RNF14FTD499R		RNF14FTD499RCT-ND					500 Ohm 0.25 Watt Metal Film Resistor
 RESISTOR		56K			ACY400				2		R2 R31				RNMF14FTC56K0		S56KCACT-ND						56K Ohm 0.25 Watt Metal Film Resistor
 RESISTOR		75K			ACY400				1		R7				RNF14FTD75K0		RNF14FTD75K0CT-ND					75K Ohm 0.25 Watt Metal Film Resistor
-SP4T			50D36-01-1-AJN		JUMPER4				1		S2				50D36-01-1-AJN		GH7273-ND						10 Position Rotary Switch Limited to 4 Positions Chassis Mount (Molex Mini Connector to Board)
+SP4T			50D36-01-1-AJN		JUMPER4				1		S2				50D36-01-1-AJN		GH7273-ND				14M6777		10 Position Rotary Switch Limited to 4 Positions Chassis Mount (Molex Mini Connector to Board)
 TESTPOINT		Reserved		JUMPER1				1		TP11				--			--			--		--		Not Stuffed
 TESTPOINT		S1751-46R		S1751-46R.fp			17		TP1 TP10 TP12 TP13 TP14	 
 												TP15 TP16 TP17 TP18 TP2 
-												TP3 TP4 TP5 TP6 TP7 TP8 TP9	S1751-46R		952-1478-1-ND						SMT Loop Test Points (For Ruggedness Hard Brass is the core)
-VARIABLE_RESISTOR	25K			JUMPER3				2		R39 R9				308NPC25K		308NPC253-ND						25K Ohm Variable Resistor (Molex Mini Connector to board)
-VARIABLE_RESISTOR	5K			JUMPER3				2		R21 R41				308NPC5K		308NPC502-ND						5K Ohm Variable Resistor (Molex Mini Connector to board)
+												TP3 TP4 TP5 TP6 TP7 TP8 TP9	S1751-46R		952-1478-1-ND		855-S1751-46R 	75R5336		SMT Loop Test Points (For Ruggedness Hard Brass is the core)
+VARIABLE_RESISTOR	25K			JUMPER3				2		R39 R9				308NPC25K		308NPC253-ND		785-308NPC25K 	03F7518		25K Ohm Variable Resistor (Molex Mini Connector to board)
+VARIABLE_RESISTOR	5K			JUMPER3				2		R21 R41				308NPC5K		308NPC502-ND		785-308NPC5K 	03F7516		5K Ohm Variable Resistor (Molex Mini Connector to board)
+BOX			CH-14400		N.A.				1		BOX1				CH-14400		377-1205-ND		563-CH14400 	05M4042		U1 Rackmount Chassis
+BOXTOP			C-14440			N.A.				1		BOXTOP1				C-14440			377-1420-ND		563-C-14440	06M4487		U1 Rackmount Chassis Lid
+KNOB			OEDL-50-1-6		N.A.				5		KNOB1 KNOB2 KNOB3 KNOB4 KNOB5	OEDL-50-1-6		226-2096-ND				88H1827
 
 BOM Note 1: LED2 is actually 3 seperate LEDs (LED2a, LED2b, LED2c) mounted on the board with a light pipe assembly (LED2) over them.
 BOM Note 2: LCD1 has to be ordered from Acculex. It is not available via the three distributors listed. While there are alternatives sold I have tried a few and been unhappy with the results. Also note that LCD1 is the footprint for the actually LCD on the board while CONN3 is the connector for the cable from the LCD to the cardiotach PCB. I used a Molex Mini Connector for this.
 BOM General Note: The composition of resistors is listed as Carbon/Metal Film for parts that can be ether composition. This is important for persons trying to understand the design. It also might be appealing for cost reasons in sizable production volumes or more likely if you just happen to be running out of a particular type.
 BOM General Note: The resistor and capacitor part numbers are provided for persons who for what ever reason can not search for them them selves. 
+
