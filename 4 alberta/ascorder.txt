@@ -1,0 +1,118 @@
+Date               ;02/28/13
+First Name         ;
+Last Name          ;
+Address            ;243 Charles Street
+City               ;Boston, MA
+Prov/ST.           ;
+Country            ;United States of America
+PC/ZIP             ;02114-3096
+Company            ;Eaton Peabody Lab
+Area Code          ;617
+Phone              ;573-3749
+Fax                ;720-4408
+Email Address      ;
+CAD System         ;gEDA/PCB
+
+Shipping Method    ;FEDEX
+Shipping ACCNT#    ; 
+
+Credit Card#       ;
+Visa/MC            ;
+Exp. Date          ;xx/xx
+Cheque/MO#         ;
+PO #               ;
+
+SERVICE TYPE       ;Prototype Plus
+Laminate Type      ;FR4
+Laminate Thickness ;.062
+
+Circuit Board Size (in DECIMAL INCHES);8.865 X 3.225
+Quantity Required (even numbers only) ;2
+GERBER TOP LAYER FILE NAME            ;compont.gbr
+GERBER BOTTOM LAYER FILE NAME         ;solder.gbr
+GERBER TOP SOLDER MASK FILE NAME      ;cmsk.gbr
+GERBER BOTTOM SOLDER MASK FILE NAME   ;smsk.gbr
+GERBER TOP COMPONENT MASK FILE NAME   ;cslk.gbr
+GERBER BOTTOM COMP MASK FILE NAME     ;
+GERBER MECHANICAL FILE NAME	      ;
+GERBER APERTURE TABLE FILE NAME       ;fab.gbr
+ASCII NC DRILL FILE NAME              ;drill.cnc
+NC DRILL TOOL SIZE FILE NAME          ;
+SPECIAL INSTRUCTIONS FILE NAME        ;READ.ME
+MULILAYER STACKUP FILE NAME	      ;
+
+-----------------------cut here----------------------------
+
+Holidays and plant closures:
+http://www.apcircuits.com/calendar.html
+
+The order from is not human read, it's done by a database 
+engine script. DO NOT put special instructions anywhere on 
+this page create a READ.ME file and specify it's name on
+the line: "SPECIAL INSTRUCTIONS FILE NAME; READ.ME"
+
+DO NOT remove, rename or modify field names. Leave any
+field names that do not apply blank. Enter information 
+to the RIGHT of the";" ;"your info on this side"
+
+Save as a PURE ASCII FILE - NO WORD PROCESSOR FORMATS
+-----------------------------------------------------------
+Service Type Field Options:
+
+Prototype      = in by 11 AM ships next business day by 5PM no masks no routing
+
+Prototype Plus = masking included, ships within 5 business days
+
+* arrays, multi-part orders, breakouts and bottom legends are premium fee
+options please contact us for details.
+
+Multilayer     = up to 10 layers, ships within 4 business days
+
+Laminate Type Field Options:
+FR4 	= is standard material 
+RO4350  = is available for RF/microwave application
+
+Laminate Thickness Field Options: .062
+
+FR4 .062 is standard
+
+Other available FR4 thicknesses: .020, .031, .039, .092
+
+Rogers 4350B is available in .020, 0.30, 0.60
+
+Laminates other than FR4 .062 are priced differently.  
+Please contact us or visit our website for pricing 
+information. http://www.apcircuits.com Select products and 
+services from the navigation bar.
+-----------------------------------------------------------
+Only Visa and Master cards are accepted.  
+AMEX and Discover cards are NOT accepted.
+
+Check accuracy of the Card number and card Expire Date.
+
+You may include a PO# for reference and it will appear on 
+your invoice. Net 30's are for pre approved accounts only.
+
+FEDEX is our exclusive carrier. You may include your Fedex 
+Account Number if you don't want to be invoiced for 
+shipping. If you have provided a FEDEX number there will be
+a $5.00 S/H fee added to your invoice. A $25.00 CDN charge 
+will be applied to your invoice if you don't have one.
+
+Our hours of operation are 9 AM to 5 PM Mountain Monday 
+to Friday. We can be reached at the following numbers:
+
+Voice                          (403) 250-3406
+Fax                            (403) 250-3465
+
+Attachments and inquiries       staff@apcircuits.com
+General Inquiries               staff@apcircuits.com
+Invoice Inquiries               accounts@apcircuits.com
+IS/IT/CAD Support               support@apcircuits.com
+
+Our Web Site                    http://www.apcircuits.com
+
+Our Address                     AP Circuits
+	                        #3. 1112 - 40th Ave N.E.
+	                        Calgary, AB
+	                        CA T2E 5T8
