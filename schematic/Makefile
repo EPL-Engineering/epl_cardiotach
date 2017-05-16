@@ -28,9 +28,9 @@ SPICEGRAPH = $(NAME)SPICE.csv
 #Project Graphing Programs
 GRAPHCMDFILE_GNUPLOT = plot.gnu
 #Project Schematics to PCB File
-SCH2PCB = cardiotach.prj
+SCH2PCB = 
 #Project Printed Circuit Boards
-PCBS = cardiotach-v3_2.pcb
+PCBS = cardiotach-v3_2.lht
 #Project Gerbers
 GERBERS = $(NAME).fab.gbr $(NAME).topsilk.gbr $(NAME).top.gbr $(NAME).topmask.gbr $(NAME).bottom.gbr  $(NAME).bottommask.gbr
 
@@ -64,10 +64,10 @@ GRAPHTOOL_GNUPLOT = gnuplot
 GRAPHFLAGS_GNUPLOT = -persist
 #
 ## Schematic to PCB Tool
-SCH2PCBTOOL = gsch2pcb
+SCH2PCBTOOL = gsch2pcb-rnd -m import 
 # 
 # PCB Tool
-PCBTOOL = pcb
+PCBTOOL = pcb-rnd
 #
 # Gerber Viewer
 PCBVIEW = gerbv

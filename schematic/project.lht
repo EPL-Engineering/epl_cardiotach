@@ -1,0 +1,25 @@
+ha:geda-project-v1 {
+ li:pcb-rnd-conf-v1 {
+  ha:overwrite {
+   ha:utils {
+    ha:gsch2pcb_rnd {
+     sch_basename = cardiotach-v3_2
+     li:schematics {
+      power.sch
+      cardiotach-v3_2.sch
+      hidden-magic.sch
+     }
+    }
+   }
+   ha:rc {
+   }
+  }
+  ha:prepend {
+   ha:rc {
+    li:library_search_paths {
+     {./foot}
+    }
+   }
+  }
+ }
+}

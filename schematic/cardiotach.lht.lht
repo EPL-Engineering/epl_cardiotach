@@ -1,0 +1,12 @@
+ha:geda-project-v1 {
+ li:pcb-rnd-conf-v1 {
+  ha:overwrite {
+   ha:utils {
+    ha:gsch2pcb_rnd {
+    }
+   }
+   ha:rc {
+   }
+  }
+ }
+}
