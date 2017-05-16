@@ -1,0 +1,21 @@
+Input sensitivity TBD -2700 820 (possible location check mechanical interfearance)
+BNC Input -4100 385
+Polarity -2700 295 (C&K)
+LCD Box (TBD)
+Pulse LED 744.40 169.60
+Alarm C&K 1405.4 295
+12 pole above alarm 1405 820
+low level 2519 320
+high level 2519 820
+led light pipe port 1 3188.8 268.8
+port 2 3188.8 469.2
+port 3 3188.8 668.8
+output bnc 3945.6 385
+volume TBD
+
+pots + 12 pole are all 1/4" size shaft
+
+http://www.grayhill.com/assets/1/7/Rotary_50,51.pdf
+
+https://media.digikey.com/pdf/Data%20Sheets/Clarostat%20PDFs/308%20-309%20Series.pdf
+
